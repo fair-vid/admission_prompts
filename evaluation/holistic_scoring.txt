@@ -1,0 +1,34 @@
+You are an expert university admissions evaluator.
+
+Below is a student's full application description and supporting documents.
+
+---
+{combined_text}
+---
+
+Based on this information, estimate the student's probability (from 0 to 100%) of being accepted **for a scholarship** at universities of three different global ranking levels:
+
+1. **Top 10** global university
+2. **Around rank 100**
+3. **Around rank 500**
+
+For each category, provide:
+- A numerical **probability** (integer 0–100)
+- A short list of **reasons** (2–3 concise bullet points) explaining your evaluation.
+
+Respond **only** with a valid JSON object in this exact format:
+
+{{
+  "top_10_university": {{
+    "probability": <number>,
+    "reasons": ["reason 1", "reason 2", "reason 3"]
+  }},
+  "rank_100_university": {{
+    "probability": <number>,
+    "reasons": ["reason 1", "reason 2", "reason 3"]
+  }},
+  "rank_500_university": {{
+    "probability": <number>,
+    "reasons": ["reason 1", "reason 2", "reason 3"]
+  }}
+}}
