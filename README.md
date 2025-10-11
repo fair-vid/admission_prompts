@@ -31,19 +31,19 @@ Prompts are the backbone of **LLM-driven evaluation systems**. They define how A
 ```
 ├── admission_prompts/
 │   ├── document_analysis/
-│   │   ├── extract_credentials.md
-│   │   ├── adjudication_rag.md
+│   │   ├── information_extractor_from_document_images.txt
+│   │   ├── ...
 │   ├── video_interview/
-│   │   ├── transcription_quality.md
-│   │   ├── semantic_enrichment.md
-│   │   ├── fraud_detection.md
+│   │   ├── transcription_quality.txt
+│   │   ├── semantic_enrichment.txt
+│   │   ├── fraud_detection.txt
 │   ├── evaluation/
-│   │   ├── holistic_scoring.md
-│   │   ├── follow_up_questions.md
+│   │   ├── holistic_scoring.txt
+│   │   ├── follow_up_questions.txt
 │   └── README.md
 ├── examples/
 │   ├── sample_outputs/
-│   ├── integration_with_pipeline.md
+│   ├── integration_with_pipeline.txt
 └── LICENSE
 ```
 
