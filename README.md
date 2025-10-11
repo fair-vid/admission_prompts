@@ -85,7 +85,7 @@ cd fair-vid-prompts/admission_prompts
 
 Example usage in Python:
 ```python
-prompt = open("prompts/document_analysis/extract_credentials.md").read()
+prompt = open("prompts/document_analysis/extract_credentials.txt").read()
 response = llm.generate(prompt, input_image="diploma.jpg")
 print(response)
 ```
