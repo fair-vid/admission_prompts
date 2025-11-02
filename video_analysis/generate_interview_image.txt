@@ -1,0 +1,8 @@
+Create a photorealistic digital drawing or image generation based exactly on the details provided in the following JSON structure. 
+Do not add, omit, or interpret any elements creatively—adhere strictly to the described attributes for the subject, environment, and composition to recreate the scene as accurately as a photo. 
+Use high-resolution rendering with precise colors (use provided hex codes where specified), textures, lighting, proportions, and spatial arrangements. 
+Focus on realism: include fine details like skin pores, hair strands, fabric wrinkles, shadows, reflections, and subtle imperfections. 
+The output should be a single image file in photorealistic style, mimicking a webcam photo.
+
+
+
