@@ -1,0 +1,21 @@
+Generate a list of 100 realistic full names for [gender] individuals from [country]. 
+Each name should follow the Western naming convention: First Name, Middle Name, Last Name. 
+- Ensure names are culturally appropriate and common in the specified country. 
+- Avoid repetition and keep the list diverse. 
+- Present the output strictly in JSON format using the following template:
+
+{
+  "names": [
+    {
+      "first_name": "ExampleFirst",
+      "middle_name": "ExampleMiddle",
+      "last_name": "ExampleLast"
+    },
+    {
+      "first_name": "ExampleFirst2",
+      "middle_name": "ExampleMiddle2",
+      "last_name": "ExampleLast2"
+    }
+    ...
+  ]
+}
