@@ -1,0 +1,20 @@
+I have attached a file containing university interview questions organized by study program. Please analyze this file and generate a new dataset in TSV (tab-separated values) format with the following specifications:
+
+Create a TSV file with exactly three columns:
+
+Study Program - Use the EXACT program names from the attached file
+Question - Generate NEW, original interview questions (similar in style and purpose but NOT identical to the ones in the file)
+Time (seconds) - Assign a realistic time limit for answering each question (typically 30-180 seconds)
+
+Requirements:
+
+Include ALL study programs from the attached file
+For each program, generate AT LEAST TWICE the number of questions that appear in the original file
+Questions should be original and unique - do not copy or closely paraphrase existing questions
+Maintain similar question types: motivation, background, technical knowledge, research interests, career goals, personal qualities, situational scenarios
+Time allocations should reflect question complexity (simple factual: 30-60s, reflective: 60-120s, complex technical/situational: 90-180s)
+Use proper TSV formatting with tabs separating columns
+Include header row: Study_Program	Question	Time
+
+
+
