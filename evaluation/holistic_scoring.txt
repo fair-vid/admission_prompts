@@ -3,7 +3,7 @@ You are an expert university admissions evaluator.
 Below is a student's full application description and supporting documents.
 
 ---
-{combined_text}
+{documents_text}
 ---
 
 Based on this information, estimate the student's probability (from 0 to 100%) of being accepted **for a scholarship** at universities of three different global ranking levels:
