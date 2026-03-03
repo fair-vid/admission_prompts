@@ -77,9 +77,6 @@ Examples:
 - `Grok_answer.md`
 - `GPT5.2_answer.md`
 
-If you re-run the same model multiple times, consider:
-- `GPT5.2_answer_v2.md`
-- `GPT5.2_answer_2026-03-03.md`
 
 ---
 
