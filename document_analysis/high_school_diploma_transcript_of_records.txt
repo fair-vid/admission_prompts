@@ -1,7 +1,8 @@
-You are an expert academic admissions assistant. Your task is to extract final grades for specific core subjects from the high school transcript provided below.
+You are an expert academic admissions assistant. Your task is to analyze the following high school transcript and extract final grades for specific core subjects.
 
-DOCUMENT TEXT:
+--- START OF DOCUMENT ---
 {doc_text}
+--- END OF DOCUMENT ---
 
 EXTRACTION RULES:
 1. TARGET SUBJECTS: You are looking for Mathematics, English, Physics, and Informatics.
