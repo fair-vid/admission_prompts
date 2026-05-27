@@ -1,0 +1,30 @@
+TASK:
+Read the provided DOCUMENT OCR TEXT and output only valid JSON object about document.
+
+PRELIMINARY OUTPUT JSON SCHEMA
+{
+  "document_type": "",
+  "source_language": "",
+  "document_date": "yyyy-mm-dd",
+  "executive_summary": "",
+  "duration": "",
+  "institution": "",
+}
+
+For "document_type": choose exactly ONE from:
+  ["high_school_diploma", "high_school_diploma_transcript_of_records", "high_school_exam_transcript_of_grades",
+  "undergraduate_degree", "graduate_degree", "phd_diploma",
+  "passport","passport_apostille", "personal_ID", "CV", "bank_statement", "recommendation",
+  "English_language_proficiency_certificate",
+  "other"]
+
+
+DOCUMENT OCR TEXT:
+
+{doc_text}
+
+
+
+
+
+
