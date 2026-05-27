@@ -1,0 +1,10 @@
+Extract info about grades into JSON object.
+
+OUTPUT JSON :
+
+{
+  "Mathematics": "",
+  "English": "",
+  "Physics": "",
+  "Informatics": ""
+}
