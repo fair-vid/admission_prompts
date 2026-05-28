@@ -13,7 +13,7 @@ PRELIMINARY OUTPUT JSON SCHEMA
 }
 
 For "document_type": choose exactly ONE from:
-  ["high_school_diploma", "high_school_diploma_transcript_of_records", "high_school_exam_transcript_of_grades",
+  ["high_school_diploma", "high_school_diploma_transcript_of_gradess", "high_school_exam_transcript_of_grades",
   "undergraduate_degree", "graduate_degree", "phd_diploma",
   "passport","passport_apostille", "personal_ID", "CV", "bank_statement", "recommendation",
   "English_language_proficiency_certificate",
