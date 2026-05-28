@@ -1,0 +1,24 @@
+You are an expert academic admissions assistant. Your task is to analyze the following high school transcript and extract final grades for specific core subjects.
+
+--- START OF DOCUMENT ---
+{doc_text}
+--- END OF DOCUMENT ---
+
+EXTRACTION RULES:
+1. MOST RECENT PERIOD: If a subject has grades across multiple years, semesters, terms, quarters, or other periods, extract ONLY the grade from the latest / most recent period available.
+   Ignore grades from older periods.
+2. SYNONYMS: You may map obvious synonyms to the target keys (e.g., map "Calculus", "Geometry", or "Algebra" to "Mathematics"; map "Computer Science" or "IT" to "Informatics").
+3. GPA: Extract the cumulative GPA if available.
+
+OUTPUT CONSTRAINTS:
+Return ONLY a valid JSON object.
+
+EXPECTED JSON SCHEMA (Only include keys if the subject is found):
+
+{
+  "Mathematics": "",
+  "English": "",
+  "Physics": "",
+  "Informatics": "",
+  "GPA" : ""
+}
