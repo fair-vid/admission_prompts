@@ -6,24 +6,41 @@ PRELIMINARY OUTPUT JSON SCHEMA
   "document_type": "",
   "country_code": "",
   "issuing_country": "",
-  "document_date": "yyyy-mm-dd",
+  "document_date": "",
   "executive_summary": "",
   "duration": "",
   "institution": "",
 }
 
-For "document_type": choose exactly ONE from:
-  ["high_school_diploma", "high_school_diploma_transcript_of_gradess", "high_school_exam_transcript_of_grades",
-  "undergraduate_degree", "graduate_degree", "phd_diploma",
-  "passport","passport_apostille", "personal_ID", "CV", "bank_statement", "recommendation",
+
+For "document_type", choose exactly ONE value from:
+[
+  "high_school_diploma",
+  "high_school_diploma_transcript_of_grades",
+  "high_school_exam_transcript_of_grades",
+  "undergraduate_degree",
+  "graduate_degree",
+  "phd_diploma",
+  "passport",
+  "passport_apostille",
+  "personal_ID",
+  "CV",
+  "bank_statement",
+  "recommendation",
   "English_language_proficiency_certificate",
-  "other"]
+  "other"
+]
 
 
 Rules:
 - "issuing_country" must contain the country that issued the document or where the institution is located.
 - "country_code" must contain the ISO 3166-1 alpha-2 country code, using exactly 2 uppercase letters.
-
+- "document_date" must be normalized to the format "yyyy-mm-dd".
+- "institution" must contain the issuing organization if available.
+- "institution" must contain the issuing organization if available.
+- "duration" should contain the period if available.
+- "executive_summary" should briefly summarize the document in one concise sentence.
+- If a value cannot be determined from the OCR text, omit that field from the JSON object.
 
 DOCUMENT OCR TEXT:
 
