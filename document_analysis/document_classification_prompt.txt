@@ -22,7 +22,7 @@ For "document_type", choose exactly ONE value from:
   "graduate_degree",
   "phd_diploma",
   "passport",
-  "passport_apostille",
+  "apostille",
   "personal_ID",
   "CV",
   "bank_statement",
