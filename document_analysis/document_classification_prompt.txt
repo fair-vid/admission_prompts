@@ -4,7 +4,8 @@ Read the provided DOCUMENT OCR TEXT and output only valid JSON object about docu
 PRELIMINARY OUTPUT JSON SCHEMA
 {
   "document_type": "",
-  "source_language": "",
+  "country_code": "",
+  "issuing_country": "",
   "document_date": "yyyy-mm-dd",
   "executive_summary": "",
   "duration": "",
@@ -17,6 +18,11 @@ For "document_type": choose exactly ONE from:
   "passport","passport_apostille", "personal_ID", "CV", "bank_statement", "recommendation",
   "English_language_proficiency_certificate",
   "other"]
+
+
+Rules:
+- "issuing_country" must contain the country that issued the document or where the institution is located.
+- "country_code" must contain the ISO 3166-1 alpha-2 country code, using exactly 2 uppercase letters.
 
 
 DOCUMENT OCR TEXT:
