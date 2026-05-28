@@ -1,10 +1,25 @@
 You are an information extraction assistant.
 From the provided Turkish education document, find the TYT score.
 
+--- START OF DOCUMENT ---
+{doc_text}
+--- END OF DOC
+
+
 Return only valid JSON in this exact structure:
 
 {
   "TYT": ""
 }
 
+
+
+Extraction rules:
+- Look for the section titled similar to "TEST GRADES AND RANKING".
+- Inside that section, find the row where the grade type is exactly "TYT".
+- Extract the value immediately after "TYT" as the TYT grade.
+- Do not extract "Y-TYT" from the "PLACEMENT GRADES AND RANKING" section.
+- Preserve the grade exactly as written.
+- If the TYT grade is missing, unreadable, or ambiguous, return an empty string.
+- Return JSON only. Do not include explanations, comments, markdown, or extra text.
 
