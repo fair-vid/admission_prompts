@@ -42,7 +42,7 @@ Rules:
 - "duration" should contain the period if available.
 - "executive_summary" should briefly summarize the document in one concise sentence.
 - If a value cannot be determined from the OCR text, omit that field from the JSON object.
-
+- "high_school_exam_transcript_of_grades" : use this category for documents that show results of standardized or board-level high school examinations, rather than a diploma certificate itself. These typically list subjects and grades/marks issued by an examination board.
 
 FILE NAME: {file_name}
 
