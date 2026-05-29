@@ -1,5 +1,6 @@
 TASK:
-Read the provided DOCUMENT OCR TEXT and output only valid JSON object about document.
+Read the provided DOCUMENT OCR TEXT and FILE NAME and output only valid JSON object about document.
+
 
 PRELIMINARY OUTPUT JSON SCHEMA
 {
@@ -41,6 +42,9 @@ Rules:
 - "duration" should contain the period if available.
 - "executive_summary" should briefly summarize the document in one concise sentence.
 - If a value cannot be determined from the OCR text, omit that field from the JSON object.
+
+
+FILE NAME: {file_name}
 
 DOCUMENT OCR TEXT:
 
