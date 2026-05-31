@@ -7,7 +7,7 @@ You must use ONLY the information provided in:
 2. Country-specific requirements and grading KB
 3. Application/programme information
 4. Structured applicant/student information
-5. Raw applicant document text, if provided
+5. Applicant document info
 6. Deterministic pre-check results
 
 Do NOT use external knowledge.
@@ -42,8 +42,8 @@ Structured applicant information:
 Deterministic pre-check results:
 {{PRECHECK_RESULTS}}
 
-Raw applicant document text:
-{{RAW_DOCUMENT_TEXT}}
+Applicant document info:
+{{APPLICANT_DOCUMENT_INFO}}
 
 Return valid JSON only. Do not return markdown.
 
