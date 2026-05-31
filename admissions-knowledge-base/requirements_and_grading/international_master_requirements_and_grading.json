@@ -1,2268 +1,1155 @@
 {
-  "countries": [
-    {
-      "country": "ARMENIA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "1-10 or 1-20 Scale",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Universities generally use a 10-point scale where 4 is the minimum passing grade, or a 20-point scale where 8 is passing.",
-        "confidence": "medium"
-      },
-      "notes": []
+  "AM": {
+    "country": "ARMENIA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "AUSTRIA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor (FH) or Bachelor (Universität) or Magister/Diplom",
-        "qualification_notes": [
-          "Bachelor (FH)",
-          "Bachelor (Universität)",
-          "Magister/Diplom"
-        ]
-      },
-      "required_documents": [
-        "Diploma",
-        "Transcript"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "1-5 Reverse Scale",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 1,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Austria uses a 1-5 scale where 1 (Sehr gut) is excellent and 4 (Genügend) is the lowest passing grade. 5 is failing.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "1-10 or 1-20 Scale",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Universities generally use a 10-point scale where 4 is the minimum passing grade, or a 20-point scale where 8 is passing.",
+      "confidence": "medium"
     },
-    {
-      "country": "AZERBAIJAN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100 Point Scale",
-        "passing_min_grade_estimate": 51,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Universities generally use a 100-point scale where 51 is the minimum passing grade.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "AT": {
+    "country": "AUSTRIA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor (FH) or Bachelor (Universität) or Magister/Diplom",
+      "qualification_notes": [
+        "Bachelor (FH)",
+        "Bachelor (Universität)",
+        "Magister/Diplom"
+      ]
     },
-    {
-      "country": "BANGLADESH",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "4.0 CGPA Scale",
-        "passing_min_grade_estimate": 2.0,
-        "maximum_grade_estimate": 4.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "A 4.0 grading system is widely used, with 2.0 or 2.25 typically serving as the minimum passing grade.",
-        "confidence": "medium"
-      },
-      "notes": []
+    "required_documents": [
+      "Diploma",
+      "Transcript"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "1-5 Reverse Scale",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 1,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Austria uses a 1-5 scale where 1 (Sehr gut) is excellent and 4 (Genügend) is the lowest passing grade. 5 is failing.",
+      "confidence": "high"
     },
-    {
-      "country": "BELARUS",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "1-10 Scale",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Belarusian higher education institutions generally use a 10-point scale, where 4 is the minimum passing score.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "AZ": {
+    "country": "AZERBAIJAN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "CAMEROON",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": true,
-        "details": "Official academic transcript must be posted directly to VILNIUS TECH by issuing institution."
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-20 or 4.0 CGPA",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Cameroon utilizes both the French 20-point system (pass is 10) and the Anglo-Saxon 4.0 GPA depending on the region/university.",
-        "confidence": "medium"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100 Point Scale",
+      "passing_min_grade_estimate": 51,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Universities generally use a 100-point scale where 51 is the minimum passing grade.",
+      "confidence": "high"
     },
-    {
-      "country": "CHINA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Degree Certificate",
-        "qualification_notes": [
-          "Graduation Certificate is also required alongside Degree Certificate."
-        ]
-      },
-      "required_documents": [
-        "Degree Certificate (original or its certified true copy)",
-        "Graduation Certificate (original or its certified true copy)",
-        "Academic Transcript (original or its certified true copy)",
-        "Verification reports in English for the degree certificate issued by the China Academic Degrees & Graduate Education Development Centre ([http://cqv.chinadegrees.cn/](http://cqv.chinadegrees.cn/) )"
-      ],
-      "translation_required": true,
-      "translation_languages_accepted": [
-        "English",
-        "Lithuanian"
-      ],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": true,
-        "details": "Verification reports in English for the degree certificate issued by the China Academic Degrees & Graduate Education Development Centre."
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100 Percentage",
-        "passing_min_grade_estimate": 60,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Chinese universities commonly use a 100-point scale where 60 is the passing grade.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "BD": {
+    "country": "BANGLADESH",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "CONGO (DEMOCRATIC REPUBLIC OF)",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": true,
-        "details": "Official academic transcript must be posted directly to VILNIUS TECH by issuing institution."
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-20 Scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Influenced by the French/Belgian system, graded out of 20 points where 10 is typically the passing mark.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "4.0 CGPA Scale",
+      "passing_min_grade_estimate": 2.0,
+      "maximum_grade_estimate": 4.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "A 4.0 grading system is widely used, with 2.0 or 2.25 typically serving as the minimum passing grade.",
+      "confidence": "medium"
     },
-    {
-      "country": "DENMARK",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "7-point scale (-3 to 12)",
-        "passing_min_grade_estimate": 2,
-        "maximum_grade_estimate": 12,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Denmark uses a unique 7-point scale with values: 12, 10, 7, 4, 02, 00, -3. 02 is the minimum passing grade.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "BY": {
+    "country": "BELARUS",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "EGYPT",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": true,
-        "value": "70%",
-        "details": "Minimum 70% of maximum possible GPA is required in order to qualify for studies at VILNIUS TECH."
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100 Percentage or 4.0 GPA",
-        "passing_min_grade_estimate": 50,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Egypt often uses a percentage scale (with 50% as pass) or an equivalent 4.0 GPA.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "1-10 Scale",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Belarusian higher education institutions generally use a 10-point scale, where 4 is the minimum passing score.",
+      "confidence": "high"
     },
-    {
-      "country": "ESTONIA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": true,
-        "details": "There is no need to apply for recognition of credentials issued starting from 2019 as they are recognized automatically."
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "letter",
-        "scale_name": "A-F Scale (or 5-0)",
-        "passing_min_grade_estimate": "E",
-        "maximum_grade_estimate": "A",
-        "all_letters": [
-          "E",
-          "D",
-          "C",
-          "B",
-          "A"
-        ],
-        "letter_to_10_scale": {
-          "E": 6,
-          "D": 7,
-          "C": 8,
-          "B": 9,
-          "A": 10
-        },
-        "numeric_range_explanation": "Estonian universities generally use A-F scale where E is sufficient to pass, corresponding to a 1-5 point equivalence.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "CM": {
+    "country": "CAMEROON",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "FRANCE",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": [
-          "Equivalent to Licence"
-        ]
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": true,
-      "translation_languages_accepted": [
-        "English",
-        "Lithuanian"
-      ],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-20 Scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Universities strictly use a 20-point scale where 10 is the passing mark for graduation.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-20 or 4.0 CGPA",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Cameroon utilizes both the French 20-point system (pass is 10) and the Anglo-Saxon 4.0 GPA depending on the region/university.",
+      "confidence": "medium"
     },
-    {
-      "country": "GERMANY",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bakkalaureus/Bachelor; Diplom (FH)-Grad or Magister Artium / Diplom-Grad or Staatsprüfung or Master/Magister",
-        "qualification_notes": [
-          "Bakkalaureus/Bachelor",
-          "Diplom (FH)-Grad",
-          "Magister Artium / Diplom-Grad",
-          "Staatsprüfung",
-          "Master/Magister"
-        ]
-      },
-      "required_documents": [
-        "Diploma (Urkunde, Diplom)",
-        "Transcript (Zeugnis, Diploma Supplement)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "1-6 Reverse Scale",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 1,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "1 is excellent, 4 is passing, 5 and 6 are failing.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "CN": {
+    "country": "CHINA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Degree Certificate",
+      "qualification_notes": [
+        "Graduation Certificate is also required alongside Degree Certificate."
+      ]
     },
-    {
-      "country": "GHANA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "4.0 CGPA Scale",
-        "passing_min_grade_estimate": 1.0,
-        "maximum_grade_estimate": 4.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Universities generally grant degrees using class honors derived from a 4.0 or similar CGPA system where 1.0 or 1.5 is the minimum pass.",
-        "confidence": "medium"
-      },
-      "notes": []
+    "required_documents": [
+      "Degree Certificate (original or its certified true copy)",
+      "Graduation Certificate (original or its certified true copy)",
+      "Academic Transcript (original or its certified true copy)",
+      "Verification reports in English for the degree certificate issued by the China Academic Degrees & Graduate Education Development Centre ([http://cqv.chinadegrees.cn/](http://cqv.chinadegrees.cn/) )"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100 Percentage",
+      "passing_min_grade_estimate": 60,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Chinese universities commonly use a 100-point scale where 60 is the passing grade.",
+      "confidence": "high"
     },
-    {
-      "country": "INDIA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor of Technology/Engineering",
-        "qualification_notes": [
-          "Restricted to B.Tech/B.E. degrees only based on text provided."
-        ]
-      },
-      "required_documents": [
-        "Apostilled original degree certificate",
-        "Apostilled original consolidated marksheet"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": true,
-        "details": "All applicants from India will be contacted by Study in Lithuania centre for checking the documents."
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": true,
-        "details": "Apostilled original degree certificate and marksheet required."
-      },
-      "special_restrictions": {
-        "applies": true,
-        "details": [
-          "Bachelor of Technology/Engineering only"
-        ]
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "10-point CGPA or 100% Scale",
-        "passing_min_grade_estimate": 4.0,
-        "maximum_grade_estimate": 10.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Indian universities generally use a 10-point CGPA or percentages, typically with 4.0 or 40% as a passing mark.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "CD": {
+    "country": "CONGO (DEMOCRATIC REPUBLIC OF)",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "IRELAND",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100% with Degree Classifications",
-        "passing_min_grade_estimate": 40,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Typically graded on a percentage scale mapped to classifications (First, Upper Second, Lower Second, Pass). Pass mark is usually 40%.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "direct_institution_submission_required": {
+      "applies": true,
+      "details": "Official academic transcript must be posted directly to VILNIUS TECH by issuing institution."
     },
-    {
-      "country": "ITALY",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": [
-          "Equivalent to Laurea"
-        ]
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "110-Point Final Grade Scale",
-        "passing_min_grade_estimate": 66,
-        "maximum_grade_estimate": 110,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Individual exams are /30 (pass 18), but final degree is awarded out of 110 points where 66 is the minimum passing score.",
-        "confidence": "high"
-      },
-      "notes": []
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-20 Scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Influenced by the French/Belgian system, graded out of 20 points where 10 is typically the passing mark.",
+      "confidence": "high"
     },
-    {
-      "country": "KAZAKHSTAN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "4.0 GPA or 100% Scale",
-        "passing_min_grade_estimate": 1.0,
-        "maximum_grade_estimate": 4.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Kazakhstan often uses a credit-based GPA system on a 4.0 scale mapped to percentages or letters.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "DK": {
+    "country": "DENMARK",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "KYRGYZSTAN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "5-point Scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Predominantly uses the traditional 5-point scale where 3 is satisfactory and the minimum pass.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "7-point scale (-3 to 12)",
+      "passing_min_grade_estimate": 2,
+      "maximum_grade_estimate": 12,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Denmark uses a unique 7-point scale with values: 12, 10, 7, 4, 02, 00, -3. 02 is the minimum passing grade.",
+      "confidence": "high"
     },
-    {
-      "country": "LATVIA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": true,
-        "details": "There is no need to apply for recognition of credentials issued starting from 2019 as they are recognized automatically."
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "1-10 Scale",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Latvian higher education institutions employ a 10-point scale where 4 is the minimum passing grade.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "EG": {
+    "country": "EGYPT",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "MOROCCO",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Licence d’Études Fondamentales diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Licence d’Études Fondamentales diploma",
-        "Releve de notes diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-20 Scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Morocco uses the French 20-point system, where 10 is the passing grade for graduation.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "minimum_grade_requirement_from_file": {
+      "applies": true,
+      "value": "70%",
+      "details": "Minimum 70% of maximum possible GPA is required in order to qualify for studies at VILNIUS TECH."
     },
-    {
-      "country": "NETHERLANDS",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor (HBO)/ Bachelor (WO) or Master (HBO)/ Master (WO)",
-        "qualification_notes": [
-          "Bachelor (HBO)",
-          "Bachelor (WO)",
-          "Master (HBO)",
-          "Master (WO)"
-        ]
-      },
-      "required_documents": [
-        "Diploma",
-        "Transcript/Diploma Supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": true,
-        "details": "Qualifications specified in Annex 1 of the Benelux-Baltic Agreement on Automatic Recognition are subject to automatic recognition."
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "1-10 Scale",
-        "passing_min_grade_estimate": 5.5,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Dutch universities evaluate on a 1 to 10 scale, where 5.5 (or rounded to 6) is passing.",
-        "confidence": "high"
-      },
-      "notes": []
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100 Percentage or 4.0 GPA",
+      "passing_min_grade_estimate": 50,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Egypt often uses a percentage scale (with 50% as pass) or an equivalent 4.0 GPA.",
+      "confidence": "high"
     },
-    {
-      "country": "NEPAL",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100% or 4.0 GPA",
-        "passing_min_grade_estimate": 35,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Commonly uses percentage grading (where ~35% or 40% is pass) or more recently a CGPA up to 4.0.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "EE": {
+    "country": "ESTONIA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "NIGERIA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Diploma",
-        "qualification_notes": [
-          "Presumed Bachelor's level based on standard university progression."
-        ]
-      },
-      "required_documents": [
-        "Diploma (original or certified true copy)",
-        "Official Academic Transcript (original or certified true copy)"
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "letter",
+      "scale_name": "A-F Scale (or 5-0)",
+      "passing_min_grade_estimate": "E",
+      "maximum_grade_estimate": "A",
+      "all_letters": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A"
       ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
+      "letter_to_10_scale": {
+        "E": 6,
+        "D": 7,
+        "C": 8,
+        "B": 9,
+        "A": 10
       },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": true,
-        "details": "Transcript must be scanned and e-mailed from official university email address to VILNIUS TECH, and then posted directly in a sealed envelope."
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "5.0 CGPA Scale",
-        "passing_min_grade_estimate": 1.0,
-        "maximum_grade_estimate": 5.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Most universities in Nigeria score degrees using a 5-point CGPA system mapping to honors classes.",
-        "confidence": "high"
-      },
-      "notes": []
+      "numeric_range_explanation": "Estonian universities generally use A-F scale where E is sufficient to pass, corresponding to a 1-5 point equivalence.",
+      "confidence": "high"
     },
-    {
-      "country": "NORWAY",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor or Master or Master Candidata/Candidatus",
-        "qualification_notes": [
-          "Bachelor",
-          "Master",
-          "Master Candidata/Candidatus (one-tier)"
-        ]
-      },
-      "required_documents": [
-        "Diploma",
-        "Transcript/Supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "letter",
-        "scale_name": "A-F Scale",
-        "passing_min_grade_estimate": "E",
-        "maximum_grade_estimate": "A",
-        "all_letters": [
-          "E",
-          "D",
-          "C",
-          "B",
-          "A"
-        ],
-        "letter_to_10_scale": {
-          "E": 6,
-          "D": 7,
-          "C": 8,
-          "B": 9,
-          "A": 10
-        },
-        "numeric_range_explanation": "Norway utilizes the ECTS A-F scale where A is highest and E is lowest pass.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "FR": {
+    "country": "FRANCE",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": [
+        "Equivalent to Licence"
+      ]
     },
-    {
-      "country": "PAKISTAN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Diploma",
-        "qualification_notes": [
-          "Equivalent to Bachelor's degree"
-        ]
-      },
-      "required_documents": [
-        "Diploma attested by the Higher Education Comission and the Ministry of Foreign Affairs",
-        "Full Academic Transcript attested by the Higher Education Comission and the Ministry of Foreign Affairs"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": true,
-        "details": "Documents must be attested by the Higher Education Commission (HEC) and the Ministry of Foreign Affairs."
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "4.0 CGPA or Percentage",
-        "passing_min_grade_estimate": 2.0,
-        "maximum_grade_estimate": 4.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Primarily graded via 4.0 CGPA or percentages where 50% or 2.0 GPA is a typical pass mark.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-20 Scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Universities strictly use a 20-point scale where 10 is the passing mark for graduation.",
+      "confidence": "high"
     },
-    {
-      "country": "POLAND",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "2-5 Scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Graded from 2 to 5 (or sometimes 5.5), where 3 is the lowest passing grade and 5 is excellent.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "DE": {
+    "country": "GERMANY",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bakkalaureus/Bachelor; Diplom (FH)-Grad or Magister Artium / Diplom-Grad or Staatsprüfung or Master/Magister",
+      "qualification_notes": [
+        "Bakkalaureus/Bachelor",
+        "Diplom (FH)-Grad",
+        "Magister Artium / Diplom-Grad",
+        "Staatsprüfung",
+        "Master/Magister"
+      ]
     },
-    {
-      "country": "PORTUGAL",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Licenciado or Mestrado",
-        "qualification_notes": [
-          "Licenciado (Diploma and its Transcript/Supplement)",
-          "Mestrado (Diploma and its Transcript/Supplement)"
-        ]
-      },
-      "required_documents": [
-        "Diploma",
-        "Transcript/Supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-20 Scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Universities use a 0-20 scale where 10 is the minimum pass for graduation.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Diploma (Urkunde, Diplom)",
+      "Transcript (Zeugnis, Diploma Supplement)"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "1-6 Reverse Scale",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 1,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "1 is excellent, 4 is passing, 5 and 6 are failing.",
+      "confidence": "high"
     },
-    {
-      "country": "PHILIPPINES",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "1.0 to 5.0 Reverse Scale",
-        "passing_min_grade_estimate": 3.0,
-        "maximum_grade_estimate": 1.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Most universities use a 1.0 to 5.0 scale, where 1.0 is excellent, 3.0 is a passing grade, and 5.0 is failing.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "GH": {
+    "country": "GHANA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "RUSSIA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "2-5 Scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Russian universities generally use a 5-point grading system where 3 (satisfactory) is the minimum passing score.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "4.0 CGPA Scale",
+      "passing_min_grade_estimate": 1.0,
+      "maximum_grade_estimate": 4.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Universities generally grant degrees using class honors derived from a 4.0 or similar CGPA system where 1.0 or 1.5 is the minimum pass.",
+      "confidence": "medium"
     },
-    {
-      "country": "GEORGIA (SAKARTVELO)",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100 Point Scale",
-        "passing_min_grade_estimate": 51,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Higher education typically uses a 100-point scale mapped to A-F letters. Minimum passing mark is 51 (E).",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "IN": {
+    "country": "INDIA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor of Technology/Engineering",
+      "qualification_notes": [
+        "Restricted to B.Tech/B.E. degrees only based on text provided."
+      ]
     },
-    {
-      "country": "SOUTH KOREA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "4.3 or 4.5 CGPA Scale",
-        "passing_min_grade_estimate": 1.0,
-        "maximum_grade_estimate": 4.5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "South Korea utilizes a 4.5 or 4.3 GPA maximum. A D grade (usually 1.0) is commonly the minimum pass.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Apostilled original degree certificate",
+      "Apostilled original consolidated marksheet"
+    ],
+    "verification_required_in_file": {
+      "applies": true,
+      "details": "All applicants from India will be contacted by Study in Lithuania centre for checking the documents."
     },
-    {
-      "country": "SPAIN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-10 Scale",
-        "passing_min_grade_estimate": 5,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Universities strictly grade out of 10 points, where 5 is considered sufficient (Aprobado).",
-        "confidence": "high"
-      },
-      "notes": []
+    "attestation_or_apostille_required": {
+      "applies": true,
+      "details": "Apostilled original degree certificate and marksheet required."
     },
-    {
-      "country": "SRI LANKA",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "4.0 CGPA",
-        "passing_min_grade_estimate": 2.0,
-        "maximum_grade_estimate": 4.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Most universities assign a GPA up to 4.0 (A/A+) for graduation, with 2.0 functioning as a general pass requirement.",
-        "confidence": "high"
-      },
-      "notes": []
+    "special_restrictions": {
+      "applies": true,
+      "details": [
+        "Bachelor of Technology/Engineering only"
+      ]
     },
-    {
-      "country": "SWEDEN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "letter",
-        "scale_name": "A-F Scale or U/G/VG",
-        "passing_min_grade_estimate": "E",
-        "maximum_grade_estimate": "A",
-        "all_letters": [
-          "E",
-          "D",
-          "C",
-          "B",
-          "A"
-        ],
-        "letter_to_10_scale": {
-          "E": 6,
-          "D": 7,
-          "C": 8,
-          "B": 9,
-          "A": 10
-        },
-        "numeric_range_explanation": "Higher education employs the ECTS A-F scale (E is passing) or a three-tiered U (Fail), G (Pass), VG (Pass with Distinction) system.",
-        "confidence": "high"
-      },
-      "notes": []
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "10-point CGPA or 100% Scale",
+      "passing_min_grade_estimate": 4.0,
+      "maximum_grade_estimate": 10.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Indian universities generally use a 10-point CGPA or percentages, typically with 4.0 or 40% as a passing mark.",
+      "confidence": "high"
     },
-    {
-      "country": "TAJIKISTAN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "2-5 Scale or 100-Point",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Often retains the post-Soviet 5-point scale where 3 is satisfactory.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "IE": {
+    "country": "IRELAND",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "TURKEY",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "4.0 CGPA Scale",
-        "passing_min_grade_estimate": 2.0,
-        "maximum_grade_estimate": 4.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "A vast majority of Turkish universities use a 4.0 scale with a 2.0 CGPA necessary for graduation.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100% with Degree Classifications",
+      "passing_min_grade_estimate": 40,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Typically graded on a percentage scale mapped to classifications (First, Upper Second, Lower Second, Pass). Pass mark is usually 40%.",
+      "confidence": "high"
     },
-    {
-      "country": "TURKMENISTAN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "2-5 Scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Continues to utilize the traditional 5-point grading where 3 is a pass.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "IT": {
+    "country": "ITALY",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": [
+        "Equivalent to Laurea"
+      ]
     },
-    {
-      "country": "UKRAINE",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100 or 1-5 Scale",
-        "passing_min_grade_estimate": 60,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Universities commonly translate the traditional 5-point scale or ECTS into a 100-point scale where 60 is pass.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "110-Point Final Grade Scale",
+      "passing_min_grade_estimate": 66,
+      "maximum_grade_estimate": 110,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Individual exams are /30 (pass 18), but final degree is awarded out of 110 points where 66 is the minimum passing score.",
+      "confidence": "high"
     },
-    {
-      "country": "UNITED KINGDOM",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100 Percentage (Degree Class)",
-        "passing_min_grade_estimate": 40,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Graded via percentages assigned to degree classifications (1st, 2:1, 2:2, 3rd) where 40% represents a standard pass.",
-        "confidence": "high"
-      },
-      "notes": []
+    "notes": []
+  },
+  "KZ": {
+    "country": "KAZAKHSTAN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
     },
-    {
-      "country": "UNITED STATES",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
-      },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "4.0 GPA Scale",
-        "passing_min_grade_estimate": 1.0,
-        "maximum_grade_estimate": 4.0,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Degrees are universally evaluated on a 4.0 grade point average scale. A D average (1.0) is typically a nominal pass, though C (2.0) is often required.",
-        "confidence": "high"
-      },
-      "notes": []
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "4.0 GPA or 100% Scale",
+      "passing_min_grade_estimate": 1.0,
+      "maximum_grade_estimate": 4.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Kazakhstan often uses a credit-based GPA system on a 4.0 scale mapped to percentages or letters.",
+      "confidence": "high"
     },
-    {
-      "country": "UZBEKISTAN",
-      "study_level": "master",
-      "prior_qualification_required": {
-        "main_qualification": "Bachelor’s degree diploma",
-        "qualification_notes": []
-      },
-      "required_documents": [
-        "Bachelor’s degree diploma",
-        "Bachelor’s degree academic transcript and/or diploma supplement"
+    "notes": []
+  },
+  "KG": {
+    "country": "KYRGYZSTAN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "5-point Scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Predominantly uses the traditional 5-point scale where 3 is satisfactory and the minimum pass.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "LV": {
+    "country": "LATVIA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "1-10 Scale",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Latvian higher education institutions employ a 10-point scale where 4 is the minimum passing grade.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "MA": {
+    "country": "MOROCCO",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Licence d’Études Fondamentales diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Licence d’Études Fondamentales diploma",
+      "Releve de notes diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-20 Scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Morocco uses the French 20-point system, where 10 is the passing grade for graduation.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "NL": {
+    "country": "NETHERLANDS",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor (HBO)/ Bachelor (WO) or Master (HBO)/ Master (WO)",
+      "qualification_notes": [
+        "Bachelor (HBO)",
+        "Bachelor (WO)",
+        "Master (HBO)",
+        "Master (WO)"
+      ]
+    },
+    "required_documents": [
+      "Diploma",
+      "Transcript/Diploma Supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "1-10 Scale",
+      "passing_min_grade_estimate": 5.5,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Dutch universities evaluate on a 1 to 10 scale, where 5.5 (or rounded to 6) is passing.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "NP": {
+    "country": "NEPAL",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100% or 4.0 GPA",
+      "passing_min_grade_estimate": 35,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Commonly uses percentage grading (where ~35% or 40% is pass) or more recently a CGPA up to 4.0.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "NG": {
+    "country": "NIGERIA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Diploma",
+      "qualification_notes": [
+        "Presumed Bachelor's level based on standard university progression."
+      ]
+    },
+    "required_documents": [
+      "Diploma (original or certified true copy)",
+      "Official Academic Transcript (original or certified true copy)"
+    ],
+    "direct_institution_submission_required": {
+      "applies": true,
+      "details": "Transcript must be scanned and e-mailed from official university email address to VILNIUS TECH, and then posted directly in a sealed envelope."
+    },
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "5.0 CGPA Scale",
+      "passing_min_grade_estimate": 1.0,
+      "maximum_grade_estimate": 5.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Most universities in Nigeria score degrees using a 5-point CGPA system mapping to honors classes.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "NO": {
+    "country": "NORWAY",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor or Master or Master Candidata/Candidatus",
+      "qualification_notes": [
+        "Bachelor",
+        "Master",
+        "Master Candidata/Candidatus (one-tier)"
+      ]
+    },
+    "required_documents": [
+      "Diploma",
+      "Transcript/Supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "letter",
+      "scale_name": "A-F Scale",
+      "passing_min_grade_estimate": "E",
+      "maximum_grade_estimate": "A",
+      "all_letters": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A"
       ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_grade_requirement_from_file": {
-        "applies": false,
-        "value": null,
-        "details": null
+      "letter_to_10_scale": {
+        "E": 6,
+        "D": 7,
+        "C": 8,
+        "B": 9,
+        "A": 10
       },
-      "automatic_recognition_in_file": {
-        "applies": false,
-        "details": null
+      "numeric_range_explanation": "Norway utilizes the ECTS A-F scale where A is highest and E is lowest pass.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "PK": {
+    "country": "PAKISTAN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Diploma",
+      "qualification_notes": [
+        "Equivalent to Bachelor's degree"
+      ]
+    },
+    "required_documents": [
+      "Diploma attested by the Higher Education Comission and the Ministry of Foreign Affairs",
+      "Full Academic Transcript attested by the Higher Education Comission and the Ministry of Foreign Affairs"
+    ],
+    "attestation_or_apostille_required": {
+      "applies": true,
+      "details": "Documents must be attested by the Higher Education Commission (HEC) and the Ministry of Foreign Affairs."
+    },
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "4.0 CGPA or Percentage",
+      "passing_min_grade_estimate": 2.0,
+      "maximum_grade_estimate": 4.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Primarily graded via 4.0 CGPA or percentages where 50% or 2.0 GPA is a typical pass mark.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "PL": {
+    "country": "POLAND",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "2-5 Scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Graded from 2 to 5 (or sometimes 5.5), where 3 is the lowest passing grade and 5 is excellent.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "PT": {
+    "country": "PORTUGAL",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Licenciado or Mestrado",
+      "qualification_notes": [
+        "Licenciado (Diploma and its Transcript/Supplement)",
+        "Mestrado (Diploma and its Transcript/Supplement)"
+      ]
+    },
+    "required_documents": [
+      "Diploma",
+      "Transcript/Supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-20 Scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Universities use a 0-20 scale where 10 is the minimum pass for graduation.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "PH": {
+    "country": "PHILIPPINES",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "1.0 to 5.0 Reverse Scale",
+      "passing_min_grade_estimate": 3.0,
+      "maximum_grade_estimate": 1.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Most universities use a 1.0 to 5.0 scale, where 1.0 is excellent, 3.0 is a passing grade, and 5.0 is failing.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "RU": {
+    "country": "RUSSIA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "2-5 Scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Russian universities generally use a 5-point grading system where 3 (satisfactory) is the minimum passing score.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "GE": {
+    "country": "GEORGIA (SAKARTVELO)",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100 Point Scale",
+      "passing_min_grade_estimate": 51,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Higher education typically uses a 100-point scale mapped to A-F letters. Minimum passing mark is 51 (E).",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "KR": {
+    "country": "SOUTH KOREA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "4.3 or 4.5 CGPA Scale",
+      "passing_min_grade_estimate": 1.0,
+      "maximum_grade_estimate": 4.5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "South Korea utilizes a 4.5 or 4.3 GPA maximum. A D grade (usually 1.0) is commonly the minimum pass.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "ES": {
+    "country": "SPAIN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-10 Scale",
+      "passing_min_grade_estimate": 5,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Universities strictly grade out of 10 points, where 5 is considered sufficient (Aprobado).",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "LK": {
+    "country": "SRI LANKA",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "4.0 CGPA",
+      "passing_min_grade_estimate": 2.0,
+      "maximum_grade_estimate": 4.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Most universities assign a GPA up to 4.0 (A/A+) for graduation, with 2.0 functioning as a general pass requirement.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "SE": {
+    "country": "SWEDEN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "letter",
+      "scale_name": "A-F Scale or U/G/VG",
+      "passing_min_grade_estimate": "E",
+      "maximum_grade_estimate": "A",
+      "all_letters": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "letter_to_10_scale": {
+        "E": 6,
+        "D": 7,
+        "C": 8,
+        "B": 9,
+        "A": 10
       },
-      "verification_required_in_file": {
-        "applies": false,
-        "details": null
-      },
-      "direct_institution_submission_required": {
-        "applies": false,
-        "details": null
-      },
-      "attestation_or_apostille_required": {
-        "applies": false,
-        "details": null
-      },
-      "special_restrictions": {
-        "applies": false,
-        "details": []
-      },
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "applies_to": "bachelor_or_prior_higher_education",
-        "grading_type": "numeric",
-        "scale_name": "0-100 Percentage or 5-point",
-        "passing_min_grade_estimate": 56,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Uses either a 5-point scale (pass is 3) or an equivalent 100-point rating (pass is generally 56%).",
-        "confidence": "high"
-      },
-      "notes": []
-    }
-  ]
+      "numeric_range_explanation": "Higher education employs the ECTS A-F scale (E is passing) or a three-tiered U (Fail), G (Pass), VG (Pass with Distinction) system.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "TJ": {
+    "country": "TAJIKISTAN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "2-5 Scale or 100-Point",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Often retains the post-Soviet 5-point scale where 3 is satisfactory.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "TR": {
+    "country": "TURKEY",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "4.0 CGPA Scale",
+      "passing_min_grade_estimate": 2.0,
+      "maximum_grade_estimate": 4.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "A vast majority of Turkish universities use a 4.0 scale with a 2.0 CGPA necessary for graduation.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "TM": {
+    "country": "TURKMENISTAN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "2-5 Scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Continues to utilize the traditional 5-point grading where 3 is a pass.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "UA": {
+    "country": "UKRAINE",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100 or 1-5 Scale",
+      "passing_min_grade_estimate": 60,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Universities commonly translate the traditional 5-point scale or ECTS into a 100-point scale where 60 is pass.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "GB": {
+    "country": "UNITED KINGDOM",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100 Percentage (Degree Class)",
+      "passing_min_grade_estimate": 40,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Graded via percentages assigned to degree classifications (1st, 2:1, 2:2, 3rd) where 40% represents a standard pass.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "US": {
+    "country": "UNITED STATES",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "4.0 GPA Scale",
+      "passing_min_grade_estimate": 1.0,
+      "maximum_grade_estimate": 4.0,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Degrees are universally evaluated on a 4.0 grade point average scale. A D average (1.0) is typically a nominal pass, though C (2.0) is often required.",
+      "confidence": "high"
+    },
+    "notes": []
+  },
+  "UZ": {
+    "country": "UZBEKISTAN",
+    "study_level": "master",
+    "prior_qualification_required": {
+      "main_qualification": "Bachelor’s degree diploma",
+      "qualification_notes": []
+    },
+    "required_documents": [
+      "Bachelor’s degree diploma",
+      "Bachelor’s degree academic transcript and/or diploma supplement"
+    ],
+    "grading_system_estimate": {
+      "is_estimate": true,
+      "applies_to": "bachelor_or_prior_higher_education",
+      "grading_type": "numeric",
+      "scale_name": "0-100 Percentage or 5-point",
+      "passing_min_grade_estimate": 56,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Uses either a 5-point scale (pass is 3) or an equivalent 100-point rating (pass is generally 56%).",
+      "confidence": "high"
+    },
+    "notes": []
+  }
 }

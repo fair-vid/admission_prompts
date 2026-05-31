@@ -1,0 +1,59 @@
+{
+  "name": "master_admission_rules",
+  "description": "General Master admission requirements, including academic qualification, academic transcripts, document legalization, English proficiency, faculty evaluation, and study gap rules.",
+  "academic_qualification": {
+    "required_degree": "Bachelor's degree or equivalent",
+    "field_requirement": "Relevant field",
+    "minimum_cgpa_percentage": 60,
+    "note": "Country-specific requirements may apply."
+  },
+  "academic_transcripts": {
+    "required": true,
+    "translation_required_if_not_english": true,
+    "accepted_translation": "Official legalized English translation",
+    "not_accepted": "Unofficial or self-translated copies"
+  },
+  "document_legalization": {
+    "translation_required_if_not_english": true,
+    "accepted_translation": "Official legalized English translation",
+    "not_accepted": "Unofficial or self-translated documents",
+    "legalization_rules": [
+      {
+        "condition": "Document issued in a country not part of the 1961 Hague Convention",
+        "requirement": "Legalization by a consular office"
+      },
+      {
+        "condition": "Document issued in a country part of the 1961 Hague Convention",
+        "requirement": "Apostille certification"
+      }
+    ],
+    "uncertainty_instruction": "Check the issuing country's Hague Convention status if unsure which legalization rule applies."
+  },
+  "english_language_proficiency": {
+    "required_for": "International applicants whose native language is not English",
+    "exception": "Applicants who completed previous studies fully in English",
+    "accepted_tests": {
+      "IELTS Academic": "5.5 overall, no section below 5.5",
+      "FCE B2 First": "Minimum overall score 160",
+      "CAE C1 Advanced": "Grade C or above",
+      "CPE C2 Proficiency": "Grade C or above",
+      "TOEFL": "Paper 510, iBT 70, CBT 180, code 6529",
+      "LanguageCert International ESOL": "Level B2 Communicator, L/R/W",
+      "TOEIC": "Listening & Reading 785; Speaking & Writing 310",
+      "PTE Academic": "Minimum 48 in all four skills",
+      "Duolingo English Test": "Minimum score 95"
+    }
+  },
+  "faculty_evaluation": {
+    "required": true,
+    "requirement": "Acceptance from the Dean's Office of the chosen faculty",
+    "interview_required": true,
+    "interview_format": "Recorded interview",
+    "interview_submission_timing": "Submitted after the application",
+    "evaluated_by": "Director of the selected study programme"
+  },
+  "study_gap": {
+    "maximum_years_since_last_completed_degree": 3,
+    "exception": "Longer gap may be accepted if credible certificates of relevant professional work experience are provided."
+  }
+}

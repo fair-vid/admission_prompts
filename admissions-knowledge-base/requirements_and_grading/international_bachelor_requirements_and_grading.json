@@ -1,1551 +1,1197 @@
 {
-  "countries": [
-    {
-      "country": "INTERNATIONAL BACCALAUREATE",
-      "secondary_qualification": "Diploma of the International Baccalaureate",
-      "required_documents": [
-        "Diploma of the International Baccalaureate",
-        "International Baccalaureate programme results certificate",
-        "Login details to check examination results online"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Examination results checked online at [http://www.ibo.org/](http://www.ibo.org/)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "IB 1-7 scale",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 7,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Each IB subject is graded 1-7, with 4 generally considered passing.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "ALBANIA",
-      "secondary_qualification": "Diplomë e Maturës Shtetërore",
-      "required_documents": [
-        "Diplomë e Maturës Shtetërore or Diplomë e Maturës Shteteröre (Profesionale)",
-        "Certifikatë Maturës Shtetërore"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Certifikatë Maturës Shtetërore implies state exam results.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-10 scale",
-        "passing_min_grade_estimate": 5,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Albanian secondary schools typically use a 1-10 scale, 5 is the minimum pass.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "ALGERIA",
-      "secondary_qualification": "Baccalauréat de lEnseignement Secondaire",
-      "required_documents": [
-        "Baccalaureat (original certificate)",
-        "Releve de Notes du Baccalaureat (original supplement)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Baccalaureat exam",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-20 scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Modeled on the French system, using a 0-20 scale where 10 is passing.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "ARMENIA",
-      "secondary_qualification": "Mijnakarg Yndhanur Krtoutian Attestat",
-      "required_documents": [
-        "Mijnakarg Yndhanur Krtoutian Attestat",
-        "Document of Unified State Examination Results"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Unified State Examination Results required for admission to higher education institutions.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-10 or 1-20 scale",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Armenia transitioned to a 10-point scale (sometimes 20 in higher ed). 4 is generally passing in the 10-point scale.",
-        "confidence": "medium"
-      },
-      "notes": []
-    },
-    {
-      "country": "AUSTRIA",
-      "secondary_qualification": "Reifeprüfungszeugnis",
-      "required_documents": [
-        "Diploma",
-        "Transcript"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Reifeprüfungszeugnis (Matura exam)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-5 scale (reverse)",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 1,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "1 is excellent, 4 is the lowest passing grade, 5 is fail.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "AZERBAIJAN",
-      "secondary_qualification": "Orta təhsil haqqżnda attestat",
-      "required_documents": [
-        "Orta təhsil haqqżnda attestat",
-        "Official results of the state examination"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "State examination for admission to higher education institutions organised by TQDK or DIM (minimum score 200 out of 700)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-5 scale (school) and 0-700 (exam)",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "School attestat usually uses 1-5 where 3 is pass. University entrance uses 0-700 (200 min).",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "BANGLADESH",
-      "secondary_qualification": "Higher Secondary Certificate",
-      "required_documents": [
-        "Higher Secondary Certificate",
-        "Academic Transcript of the Higher Secondary Certificate",
-        "Secondary School Certificate",
-        "Academic Transcript of the Secondary School Certificate",
-        "OMPT Mathematics entrance exam certificate"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": "OMPT exam must be passed with a result of no less than 60% for university-level Bachelor’s and 50% for professional Bachelor’s."
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "HSC board exams and OMPT Mathematics entrance exam",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A+ to D",
-        "passing_min_grade_estimate": "D",
-        "maximum_grade_estimate": "A+",
-        "all_letters": ["D", "C", "B", "A-", "A", "A+"],
-        "letter_to_10_scale": {
-          "D": 5,
-          "C": 6,
-          "B": 7,
-          "A-": 8,
-          "A": 9,
-          "A+": 10
-        },
-        "numeric_range_explanation": "GPA system up to 5.0 with letter grades. A+ (5.0) down to D (1.0). F is fail.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "BELARUS",
-      "secondary_qualification": "Atestat (атэстат аб агульнай сярэдняй адукацыi)",
-      "required_documents": [
-        "Atestat (атэстат аб агульнай сярэдняй адукацыi)",
-        "A letter issued by the school providing information on the results of the passed school leaving examinations"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Letter from school on passed school leaving examinations",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-10 scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Belarus uses a 1-10 grading scale where 1-2 are failing and 3 is the minimum pass.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "BELGIUM",
-      "secondary_qualification": "Diploma van Secundair Onderwijs / CESS / Abschusszeugnis",
-      "required_documents": [
-        "Diploma van Secundair Onderwijs (Flemish)",
-        "Certificat d’Enseignement Secondaire Supérieur (French)",
-        "Abschusszeugnis der Oberstufe des Secundarunterrichts (German)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": false,
-      "final_school_exam_requirement_details": "Subject to automatic recognition per Benelux-Baltic Agreement.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "Percentage / 0-100",
-        "passing_min_grade_estimate": 50,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Typically percentages, where 50% is required to pass.",
-        "confidence": "medium"
-      },
-      "notes": []
-    },
-    {
-      "country": "CAMEROON",
-      "secondary_qualification": "General Certificate of Education",
-      "required_documents": [
-        "Original General Certificate of Education (ordinary and advanced levels)",
-        "Official statement of General Certificate of Education posted directly by Cameroon GCE Board",
-        "Documents attesting to any periods of post secondary education"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "General Certificate of Education (ordinary and advanced levels) official statements",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A-E scale (A-level)",
-        "passing_min_grade_estimate": "E",
-        "maximum_grade_estimate": "A",
-        "all_letters": ["E", "D", "C", "B", "A"],
-        "letter_to_10_scale": {
-          "E": 6,
-          "D": 7,
-          "C": 8,
-          "B": 9,
-          "A": 10
-        },
-        "numeric_range_explanation": "Follows British GCE system. A-E are passing grades for Advanced levels.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "CHINA",
-      "secondary_qualification": "Senior Secondary School Graduation Certificate",
-      "required_documents": [
-        "Senior Secondary School Graduation Certificate",
-        "Academic transcript for the last three years",
-        "Verification report for the Huikao/Xueye Shuiping Ceshi results",
-        "Verification report for Chinese National University Entrance Examination (GaoKao)"
-      ],
-      "translation_required": true,
-      "translation_languages_accepted": [
-        "English",
-        "Russian",
-        "Lithuanian"
-      ],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Huikao (Proficiency Test) and GaoKao (National University Entrance Exam)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-100 scale",
-        "passing_min_grade_estimate": 60,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "School subjects are typically out of 100 with 60 passing. GaoKao is usually out of 750.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "CONGO (DEMOCRATIC REPUBLIC OF)",
-      "secondary_qualification": "Diplome d’Etat",
-      "required_documents": [
-        "Diplome d’Etat (original)",
-        "Bulletin for the last 3 years of schooling (original)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Diplome d'Etat involves passing state exams.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "Percentage (0-100%)",
-        "passing_min_grade_estimate": 50,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Grades typically awarded out of 100%, with 50% needed to earn the Diplome d'Etat.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "CYPRUS",
-      "secondary_qualification": "Aπολυτήριο (Apolytirio)",
-      "required_documents": [
-        "Aπολυτήριο (Apolytirio)",
-        "Document certifying the results of centrally organized exams (Pancyprian)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Centrally organized exams (Pancyprian)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-20 scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Cyprus uses a 1-20 grading scale, where 10 is the minimum pass.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "DENMARK",
-      "secondary_qualification": "Bevis for Studentereksamen",
-      "required_documents": [
-        "Bevis for Studentereksamen or Bevis for Højere Teknisk Eksamen or Bevis for Højere forberedelseseksamen or Bevis for Højere handelseksamen"
-      ],
-      "translation_required": true,
-      "translation_languages_accepted": [
-        "English",
-        "Lithuanian"
-      ],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Studentereksamen (school leaving exam)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "7-point grading scale",
-        "passing_min_grade_estimate": "02",
-        "maximum_grade_estimate": 12,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "7-point scale (-03, 00, 02, 4, 7, 10, 12). Passing grade is 02.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "EGYPT",
-      "secondary_qualification": "Thanawiyya al-A’aamaI",
-      "required_documents": [
-        "General Secondary Education Certificate (Thanawiyya al-A’aamaI)",
-        "Official General Secondary Education Certificate examination results"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "General Secondary Education Certificate examination results",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-100% or 0-410",
-        "passing_min_grade_estimate": 50,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Results generally presented as percentages, 50% passing.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "ESTONIA",
-      "secondary_qualification": "Gümnaasiumi Lõputunnistus",
-      "required_documents": [
-        "Gümnaasiumi Lõputunnistus",
-        "Hinneteleht",
-        "Riigieksamitunnistus"
-      ],
-      "translation_required": true,
-      "translation_languages_accepted": [
-        "English",
-        "Lithuanian"
-      ],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Riigieksamitunnistus (State exam certificate)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-5 scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "1-5 scale for school subjects where 3 is pass. State exams typically 0-100 points.",
-        "confidence": "high"
-      },
-      "notes": [
-        "Automatic recognition for credentials starting from 2019."
-      ]
-    },
-    {
-      "country": "FRANCE",
-      "secondary_qualification": "Diplôme du Baccalauréat",
-      "required_documents": [
-        "Diplôme du Baccalauréat",
-        "Relevé de Notes"
-      ],
-      "translation_required": true,
-      "translation_languages_accepted": [
-        "English",
-        "Lithuanian"
-      ],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Baccalauréat examination results",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-20 scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "0-20 grading scale where 10 is passing.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "GERMANY",
-      "secondary_qualification": "Zeugnis der allgemeinen Hochschulreife",
-      "required_documents": [
-        "Diploma (Urkunde, Diplom)",
-        "Transcript (Zeugnis, Diploma Supplement)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Zeugnis der allgemeinen Hochschulreife (Abitur exams)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-15 point scale (Abitur)",
-        "passing_min_grade_estimate": 5,
-        "maximum_grade_estimate": 15,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Upper secondary level uses 0-15 points where 5 is minimum passing. (equivalent to 1-6 standard reverse scale).",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "GHANA",
-      "secondary_qualification": "WAEC Senior Secondary Certificate",
-      "required_documents": [
-        "Original WAEC Senior Secondary Certificate",
-        "Result Checker Card serial number and pin code",
-        "Transcript of completed one year additional studies in a Higher education institution"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "WAEC examination results online at ghana.waecdirect.org",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A1-F9 WAEC scale",
-        "passing_min_grade_estimate": "E8",
-        "maximum_grade_estimate": "A1",
-        "all_letters": ["E8", "D7", "C6", "C5", "C4", "B3", "B2", "A1"],
-        "letter_to_10_scale": {
-          "E8": 3,
-          "D7": 4,
-          "C6": 5,
-          "C5": 6,
-          "C4": 7,
-          "B3": 8,
-          "B2": 9,
-          "A1": 10
-        },
-        "numeric_range_explanation": "WAEC uses A1 (excellent) to F9 (fail). Passes are generally A1-E8.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "GREECE",
-      "secondary_qualification": "Apolytirio Genikou Lykeiou / Apolytirio Epangekmatikou Lykeiou",
-      "required_documents": [
-        "ΑΠΟΛΥΤΗΡΙΟ ΓΕΝΙΚΟΥ ΛΥΚΕΙΟΥ or ΑΠΟΛΥΤΗΡΙΟ ΕΠΑΓΓΕΛΜΑΤΙΚΟΥ ΛΥΚΕΙΟΥ",
-        "Certificate of access to higher education (Vevaiosi Prosvasis)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Vevaiosi Prosvasis implies Panhellenic exams for university access.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-20 scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Greek Lykeio uses a 20-point scale where 10 is a passing grade.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "INDIA",
-      "secondary_qualification": "Senior Secondary Examination Certificate",
-      "required_documents": [
-        "Secondary school certificate with mark sheet",
-        "Apostilled original senior secondary examination certificate with mark sheet",
-        "Diploma of Engineering/Technlogy (if applicable)",
-        "Diploma certificate (if applicable)",
-        "Consolidated marksheet (if applicable)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Senior secondary examination certificate (Board exams)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-100 percentage",
-        "passing_min_grade_estimate": 33,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Typically percentages, with 33% or 35% as passing grade.",
-        "confidence": "high"
-      },
-      "notes": [
-        "All applicants from India will be contacted by Study in Lithuania center for checking the documents."
-      ]
-    },
-    {
-      "country": "IRELAND",
-      "secondary_qualification": "Leaving Certificate",
-      "required_documents": [
-        "Leaving Certificate"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Leaving Certificate implies national exam results.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "H1-H8 / O1-O8",
-        "passing_min_grade_estimate": "H7",
-        "maximum_grade_estimate": "H1",
-        "all_letters": ["H7", "H6", "H5", "H4", "H3", "H2", "H1"],
-        "letter_to_10_scale": {
-          "H7": 4,
-          "H6": 5,
-          "H5": 6,
-          "H4": 7,
-          "H3": 8,
-          "H2": 9,
-          "H1": 10
-        },
-        "numeric_range_explanation": "Higher/Ordinary level system. H1-H7 and O1-O6 are passing. H1 is maximum.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "ISRAEL",
-      "secondary_qualification": "Teudat bagrut",
-      "required_documents": [
-        "Teudat bagrut (תעודת בגרות)",
-        "Teudat bagrut (subjects, their levels and grades)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Bagrut exam results",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-100 scale",
-        "passing_min_grade_estimate": 55,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Scores out of 100, minimum passing score is generally 55.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "ITALY",
-      "secondary_qualification": "Diploma",
-      "required_documents": [
-        "Diploma",
-        "Certifica (Esame di Stato)",
-        "Document issued by the school providing detailed grades of final examination and marks at the end of the last year of schooling"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Esame di Stato final examination grades",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-100 scale (Esame di Stato)",
-        "passing_min_grade_estimate": 60,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Final diploma (Maturità) graded 60 to 100. School years graded 1-10.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "KAZAKHSTAN",
-      "secondary_qualification": "Аттeстат жалпы орта білім туралы",
-      "required_documents": [
-        "Аттeстат жалпы орта білім туралы",
-        "Жалпы орта білім туралыаттeстатка косымша",
-        "Unified National Testing Results Certificate (Сертификат)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Unified National Testing Results Certificate",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "2-5 scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Uses the traditional post-Soviet 5-point grading system where 3 is pass and 5 is max.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "KYRGYZSTAN",
-      "secondary_qualification": "Жалпы орто билим женунде аттестат (аттестат о среднем общем образовании)",
-      "required_documents": [
-        "Жалпы орто билим женунде аттестат (or other equivalent document)",
-        "Appendix to the Жалпы орто билим женунде аттестат",
-        "Document on Results of National Test"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Document on Results of National Test organized by Center for Educational Assessment and Teaching Methods",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "2-5 scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Uses traditional post-Soviet 5-point system.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "LATVIA",
-      "secondary_qualification": "Atestāts par vispārējo vidējo izglītību",
-      "required_documents": [
-        "Atestāts par vispārējo vidējo izglītību",
-        "Sekmju izraksts",
-        "Vispārējās vidējās izglītības sertifikāts"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Vispārējās vidējās izglītības sertifikāts (central exams)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-10 scale",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Latvia uses a 1-10 scale, where 4 is the minimum pass.",
-        "confidence": "high"
-      },
-      "notes": [
-        "Automatic recognition for credentials issued starting from 2019."
-      ]
-    },
-    {
-      "country": "LUXEMBOURG",
-      "secondary_qualification": null,
-      "required_documents": [],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": false,
-      "final_school_exam_requirement_details": "Subject to automatic recognition",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-60 scale",
-        "passing_min_grade_estimate": 30,
-        "maximum_grade_estimate": 60,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Luxembourg typically uses a 1-60 grading system with 30 as pass.",
-        "confidence": "medium"
-      },
-      "notes": [
-        "Higher education qualifications are subject to automatic recognition per Benelux-Baltic Agreement."
-      ]
-    },
-    {
-      "country": "MOLDOVA",
-      "secondary_qualification": "Diplomǎ de Bacalaureat",
-      "required_documents": [
-        "Diplomǎ de Bacalaureat"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Diplomǎ de Bacalaureat exam results verified via official register",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-10 scale",
-        "passing_min_grade_estimate": 5,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Moldova uses a 1-10 grading scale. 5 is the minimum pass.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "MOROCCO",
-      "secondary_qualification": "Attestation du Baccalauréat",
-      "required_documents": [
-        "Attestation du Baccalauréat certificate",
-        "Releve de Notes du Baccalaureat"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Baccalauréat exams",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-20 scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "0-20 system modeled on France, 10 is pass.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "NEPAL",
-      "secondary_qualification": "Higher Secondary Examination Certificate",
-      "required_documents": [
-        "Original Higher Secondary Examination Certificate",
-        "Original higher secondary education academic transcript",
-        "School Leaving Certificate",
-        "School leaving education academic transcript",
-        "OMPT Mathematics entrance exam certificate"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": "OMPT exam must be passed with a result of no less than 60% for university-level Bachelor’s and 50% for professional Bachelor’s."
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Higher Secondary Examination and OMPT Mathematics exam",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A+ to E (GPA)",
-        "passing_min_grade_estimate": "D+",
-        "maximum_grade_estimate": "A+",
-        "all_letters": ["D+", "C", "C+", "B", "B+", "A", "A+"],
-        "letter_to_10_scale": {
-          "D+": 4,
-          "C": 5,
-          "C+": 6,
-          "B": 7,
-          "B+": 8,
-          "A": 9,
-          "A+": 10
-        },
-        "numeric_range_explanation": "GPA scale converting to letter grades. D+ or D is usually pass.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "NETHERLANDS",
-      "secondary_qualification": "Hoger algemeen voortgezet onderwijs (HAVO) or Voorbereidend wetenschappelijk onderwijs (VWO)",
-      "required_documents": [
-        "Diploma",
-        "Transcript/Diploma Supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "HAVO/VWO diploma involves passing the national Centraal Examen.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-10 scale",
-        "passing_min_grade_estimate": 5.5,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Netherlands uses a 1-10 scale where 5.5 (rounded to 6) is passing.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "NIGERIA",
-      "secondary_qualification": "WAEC or NECO Senior School Certificate",
-      "required_documents": [
-        "WAEC or NECO Senior School Certificate",
-        "Scratch Card serial number and pin code",
-        "Transcript of completed one year additional studies in Higher education institution"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Check examination results online at WAEC or NECO portals.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A1-F9 WAEC scale",
-        "passing_min_grade_estimate": "E8",
-        "maximum_grade_estimate": "A1",
-        "all_letters": ["E8", "D7", "C6", "C5", "C4", "B3", "B2", "A1"],
-        "letter_to_10_scale": {
-          "E8": 3,
-          "D7": 4,
-          "C6": 5,
-          "C5": 6,
-          "C4": 7,
-          "B3": 8,
-          "B2": 9,
-          "A1": 10
-        },
-        "numeric_range_explanation": "WAEC/NECO grades range from A1 to F9.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "NORWAY",
-      "secondary_qualification": "Vitnemål for videregående opplæring (generell studiekompetanse)",
-      "required_documents": [
-        "Diploma",
-        "Transcript/Supplement"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Vitnemål includes final exam results.",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-6 scale",
-        "passing_min_grade_estimate": 2,
-        "maximum_grade_estimate": 6,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Norway secondary uses 1-6 scale where 2 is passing, 1 is fail.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "PAKISTAN",
-      "secondary_qualification": "Higher Secondary Certificate",
-      "required_documents": [
-        "Higher Secondary School Examination Certificate",
-        "Higher Secondary School Examination Certificate Statement of Marks",
-        "Secondary School Examination Certificate",
-        "Secondary School Examination Certificate Statement of Marks",
-        "OMPT Mathematics entrance exam certificate"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": "OMPT exam must be passed with a result of no less than 60% for university-level Bachelor’s and 50% for professional Bachelor’s."
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Board examination and OMPT mathematics entrance exam",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-100 percentage",
-        "passing_min_grade_estimate": 33,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Graded usually in percentages, min pass is 33% or 40% depending on exact board.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "POLAND",
-      "secondary_qualification": "Świadectwo Dojrzałości",
-      "required_documents": [
-        "Świadectwo Dojrzałości",
-        "Świadectwo ukończenia"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Świadectwo Dojrzałości (Matura exam)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-6 scale (school) / 0-100% (Matura)",
-        "passing_min_grade_estimate": 30,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "School ends with 1-6 (2 pass). Matura exams are % where 30% is pass.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "PORTUGAL",
-      "secondary_qualification": "Diploma/Certificado/Certidão do Ensino Secundário",
-      "required_documents": [
-        "Diploma/Certificado/Certidão do Ensino Secundário",
-        "Document certifying the passing of the national exams (FICHA ENES)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "National exams (FICHA ENES)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-20 scale",
-        "passing_min_grade_estimate": 10,
-        "maximum_grade_estimate": 20,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Scale of 0-20, pass is 10.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "PHILIPPINES",
-      "secondary_qualification": "Secondary Education Diploma",
-      "required_documents": [
-        "Diploma supplemented with an Authentication Certificate",
-        "Secondary Student’s Permanent Record (Form 137-A) supplemented with an Authentication Certificate"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": false,
-      "final_school_exam_requirement_details": null,
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-100 percentage",
-        "passing_min_grade_estimate": 75,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Percentages are common, passing is 75.",
-        "confidence": "medium"
-      },
-      "notes": []
-    },
-    {
-      "country": "RUSSIA",
-      "secondary_qualification": "Attestat (Аттестат о среднем (полном) образовании)",
-      "required_documents": [
-        "Attestat (Аттестат о среднем (полном) образовании)",
-        "Appendix to attestat",
-        "Certificate Unified State Examination Results Certificate"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Unified State Examination Results Certificate",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "2-5 scale (school) / 0-100 (USE)",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "School attestat uses 2-5, USE (EGE) is 0-100.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "GEORGIA (SAKARTVELO)",
-      "secondary_qualification": "Secondary School diploma (Sashualo Skolis Atestati) or General Education Diploma",
-      "required_documents": [
-        "Secondary School diploma (Sashualo Skolis Atestati) or General Education Diploma (Sruli zogadi Ganatlebis Atestati)",
-        "Results of the Unified National Examinations (Ertiani Erovnuli Gamocdebi)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Unified National Examinations",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-10 scale",
-        "passing_min_grade_estimate": 5,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "School is 1-10 scale.",
-        "confidence": "medium"
-      },
-      "notes": []
-    },
-    {
-      "country": "SOUTH KOREA",
-      "secondary_qualification": "Certificate of Graduation",
-      "required_documents": [
-        "Certificate of Graduation",
-        "Academic Transcript",
-        "Results of the Korean College Scholastic Ability Test",
-        "Higher Education Certificate of Graduation and Transcript (if applicable)"
-      ],
-      "translation_required": true,
-      "translation_languages_accepted": [
-        "English"
-      ],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Korean College Scholastic Ability Test (CSAT)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-9 stanine (reverse)",
-        "passing_min_grade_estimate": 9,
-        "maximum_grade_estimate": 1,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "High schools commonly use a relative grading scale 1-9 where 1 is best. Passing/failing is less explicit.",
-        "confidence": "medium"
-      },
-      "notes": []
-    },
-    {
-      "country": "SPAIN",
-      "secondary_qualification": "Título de Bachiller",
-      "required_documents": [
-        "Título de Bachiller",
-        "An examination certificate (Prueba de Acceso a la Universidad) (if taken)",
-        "Academic Certificate (Historial Académico de Bachillerato/Certificación official)"
-      ],
-      "translation_required": true,
-      "translation_languages_accepted": [
-        "English",
-        "Lithuanian"
-      ],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Prueba de Acceso a la Universidad (if taken)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-10 scale",
-        "passing_min_grade_estimate": 5,
-        "maximum_grade_estimate": 10,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Spain uses a 0-10 scale where 5 is pass.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "SRI LANKA",
-      "secondary_qualification": "General Certificate of Education (Advanced Level)",
-      "required_documents": [
-        "Official statements of General Certificates of Education (Ordinary Level and Advanced Level)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "General Certificates of Education (Advanced Level) exams",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A-F scale (A-level)",
-        "passing_min_grade_estimate": "S",
-        "maximum_grade_estimate": "A",
-        "all_letters": ["S", "C", "B", "A"],
-        "letter_to_10_scale": {
-          "S": 5,
-          "C": 7,
-          "B": 8,
-          "A": 10
-        },
-        "numeric_range_explanation": "Grades are A (Distinction), B, C, S (Simple Pass), and F (Fail).",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "SWEDEN",
-      "secondary_qualification": "Examensbevis",
-      "required_documents": [
-        "Examensbevis"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": false,
-      "final_school_exam_requirement_details": null,
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A-F scale",
-        "passing_min_grade_estimate": "E",
-        "maximum_grade_estimate": "A",
-        "all_letters": ["E", "D", "C", "B", "A"],
-        "letter_to_10_scale": {
-          "E": 6,
-          "D": 7,
-          "C": 8,
-          "B": 9,
-          "A": 10
-        },
-        "numeric_range_explanation": "Swedish schools use A-F scale where E is minimum passing.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "TAJIKISTAN",
-      "secondary_qualification": "Шаходатнома дар бораи тахсилоти миёнаи умумй (свидетельство об общем среднем образовании)",
-      "required_documents": [
-        "Шаходатнома дар бораи тахсилоти миёнаиумумй",
-        "Appendix to the Official results of the centralized examination for admission to higher education institutions"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": true,
-        "details": "Minimum 60% of maximum possible results in mathematics, physics/another science subject/social science subject and English language are required."
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Official results of the centralized examination for admission to higher education institutions",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "2-5 scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Traditional post-Soviet 5-point grading scale.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "TURKEY",
-      "secondary_qualification": "Lise Diplomasi",
-      "required_documents": [
-        "Lise Diplomasi",
-        "Transcript providing information on the last 4 years of study",
-        "Results of taken YKS, YGS and/or LYS examinations"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Centralised admission examinations YKS, YGS and/or LYS",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "0-100 scale",
-        "passing_min_grade_estimate": 50,
-        "maximum_grade_estimate": 100,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Lise Diplomasi score is out of 100 with 50 as passing.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "TURKMENISTAN",
-      "secondary_qualification": "Şahadatnama orta blim hakynda (Аттестат о полном среднем общем образовании)",
-      "required_documents": [
-        "Şahadatnama orta blim hakynda"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": false,
-      "final_school_exam_requirement_details": null,
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "2-5 scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Traditional post-Soviet 5-point system.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "UKRAINE",
-      "secondary_qualification": "Atestat (Aтeстат прo повну загальну серeдню освiту)",
-      "required_documents": [
-        "Aтeстат прo повну загальну серeдню освiту",
-        "Додаток до атестата",
-        "ЗНО (Independent External Examination) results"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "ЗНО (Independent External Examination)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "1-12 scale (school) / 100-200 (ZNO)",
-        "passing_min_grade_estimate": 4,
-        "maximum_grade_estimate": 12,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "School uses 1-12 points where 4 is pass. ZNO ranges from 100 to 200.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "UNITED KINGDOM",
-      "secondary_qualification": "General Certificate of Education – Advanced Level (A level)",
-      "required_documents": [
-        "General Certificate of Education (or another qualification comparable to at least 2 A levels)"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "GCE A level examinations",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A*-E scale",
-        "passing_min_grade_estimate": "E",
-        "maximum_grade_estimate": "A*",
-        "all_letters": ["E", "D", "C", "B", "A", "A*"],
-        "letter_to_10_scale": {
-          "E": 5,
-          "D": 6,
-          "C": 7,
-          "B": 8,
-          "A": 9,
-          "A*": 10
-        },
-        "numeric_range_explanation": "Passing grades at A-level are A* to E.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "UNITED STATES",
-      "secondary_qualification": "High School Diploma",
-      "required_documents": [
-        "Diploma",
-        "Official academic transcript",
-        "ACT, SAT, or AP examination results",
-        "Documents attesting to completion of any postsecondary education"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "ACT, SAT, or AP examination results (English, Mathematics and Science exams are required)",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "letter",
-        "scale_name": "A-F / 4.0 GPA scale",
-        "passing_min_grade_estimate": "D",
-        "maximum_grade_estimate": "A",
-        "all_letters": ["D", "C", "B", "A"],
-        "letter_to_10_scale": {
-          "D": 6,
-          "C": 7,
-          "B": 8,
-          "A": 10
-        },
-        "numeric_range_explanation": "Uses A, B, C, D (passing) and F (fail). GPA up to 4.0.",
-        "confidence": "high"
-      },
-      "notes": []
-    },
-    {
-      "country": "UZBEKISTAN",
-      "secondary_qualification": "Ўрта маълумот тўгрисида Шаходатнома (Аттестат о полном среднем общем образовании)",
-      "required_documents": [
-        "Ўрта маълумот тўгрисида Шаходатнома",
-        "ўзлаштириш бўйича якуний бахолартабели to the Ўрта маълумот тўгрисида Шаходатнома",
-        "Official results of the centralized examination for admission to higher education institutions"
-      ],
-      "translation_required": false,
-      "translation_languages_accepted": [],
-      "minimum_subject_requirement_from_file": {
-        "applies": false,
-        "details": null
-      },
-      "final_school_exam_required_in_file": true,
-      "final_school_exam_requirement_details": "Centralized examination organised by National Testing Centre",
-      "grading_system_estimate": {
-        "is_estimate": true,
-        "grading_type": "numeric",
-        "scale_name": "2-5 scale",
-        "passing_min_grade_estimate": 3,
-        "maximum_grade_estimate": 5,
-        "all_letters": [],
-        "letter_to_10_scale": {},
-        "numeric_range_explanation": "Traditional post-Soviet 5-point system.",
-        "confidence": "high"
-      },
-      "notes": []
+  "IB": {
+    "country": "INTERNATIONAL BACCALAUREATE",
+    "secondary_qualification": "Diploma of the International Baccalaureate",
+    "required_documents": [
+      "Diploma of the International Baccalaureate",
+      "International Baccalaureate programme results certificate",
+      "Login details to check examination results online"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Examination results checked online at [http://www.ibo.org/](http://www.ibo.org/)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "IB 1-7 scale",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 7,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Each IB subject is graded 1-7, with 4 generally considered passing.",
+      "confidence": "high"
     }
-  ]
+  },
+  "AL": {
+    "country": "ALBANIA",
+    "secondary_qualification": "Diplomë e Maturës Shtetërore",
+    "required_documents": [
+      "Diplomë e Maturës Shtetërore or Diplomë e Maturës Shteteröre (Profesionale)",
+      "Certifikatë Maturës Shtetërore"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Certifikatë Maturës Shtetërore implies state exam results.",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-10 scale",
+      "passing_min_grade_estimate": 5,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Albanian secondary schools typically use a 1-10 scale, 5 is the minimum pass.",
+      "confidence": "high"
+    }
+  },
+  "DZ": {
+    "country": "ALGERIA",
+    "secondary_qualification": "Baccalauréat de lEnseignement Secondaire",
+    "required_documents": [
+      "Baccalaureat (original certificate)",
+      "Releve de Notes du Baccalaureat (original supplement)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Baccalaureat exam",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-20 scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Modeled on the French system, using a 0-20 scale where 10 is passing.",
+      "confidence": "high"
+    }
+  },
+  "AM": {
+    "country": "ARMENIA",
+    "secondary_qualification": "Mijnakarg Yndhanur Krtoutian Attestat",
+    "required_documents": [
+      "Mijnakarg Yndhanur Krtoutian Attestat",
+      "Document of Unified State Examination Results"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Unified State Examination Results required for admission to higher education institutions.",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-10 or 1-20 scale",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Armenia transitioned to a 10-point scale (sometimes 20 in higher ed). 4 is generally passing in the 10-point scale.",
+      "confidence": "medium"
+    }
+  },
+  "AT": {
+    "country": "AUSTRIA",
+    "secondary_qualification": "Reifeprüfungszeugnis",
+    "required_documents": [
+      "Diploma",
+      "Transcript"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Reifeprüfungszeugnis (Matura exam)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-5 scale (reverse)",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 1,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "1 is excellent, 4 is the lowest passing grade, 5 is fail.",
+      "confidence": "high"
+    }
+  },
+  "AZ": {
+    "country": "AZERBAIJAN",
+    "secondary_qualification": "Orta təhsil haqqżnda attestat",
+    "required_documents": [
+      "Orta təhsil haqqżnda attestat",
+      "Official results of the state examination"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "State examination for admission to higher education institutions organised by TQDK or DIM (minimum score 200 out of 700)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-5 scale (school) and 0-700 (exam)",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "School attestat usually uses 1-5 where 3 is pass. University entrance uses 0-700 (200 min).",
+      "confidence": "high"
+    }
+  },
+  "BD": {
+    "country": "BANGLADESH",
+    "secondary_qualification": "Higher Secondary Certificate",
+    "required_documents": [
+      "Higher Secondary Certificate",
+      "Academic Transcript of the Higher Secondary Certificate",
+      "Secondary School Certificate",
+      "Academic Transcript of the Secondary School Certificate",
+      "OMPT Mathematics entrance exam certificate"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "HSC board exams and OMPT Mathematics entrance exam",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A+ to D",
+      "passing_min_grade_estimate": "D",
+      "maximum_grade_estimate": "A+",
+      "all_letters": [
+        "D",
+        "C",
+        "B",
+        "A-",
+        "A",
+        "A+"
+      ],
+      "letter_to_10_scale": {
+        "D": 5,
+        "C": 6,
+        "B": 7,
+        "A-": 8,
+        "A": 9,
+        "A+": 10
+      },
+      "numeric_range_explanation": "GPA system up to 5.0 with letter grades. A+ (5.0) down to D (1.0). F is fail.",
+      "confidence": "high"
+    }
+  },
+  "BY": {
+    "country": "BELARUS",
+    "secondary_qualification": "Atestat (атэстат аб агульнай сярэдняй адукацыi)",
+    "required_documents": [
+      "Atestat (атэстат аб агульнай сярэдняй адукацыi)",
+      "A letter issued by the school providing information on the results of the passed school leaving examinations"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Letter from school on passed school leaving examinations",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-10 scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Belarus uses a 1-10 grading scale where 1-2 are failing and 3 is the minimum pass.",
+      "confidence": "high"
+    }
+  },
+  "BE": {
+    "country": "BELGIUM",
+    "secondary_qualification": "Diploma van Secundair Onderwijs / CESS / Abschusszeugnis",
+    "required_documents": [
+      "Diploma van Secundair Onderwijs (Flemish)",
+      "Certificat d’Enseignement Secondaire Supérieur (French)",
+      "Abschusszeugnis der Oberstufe des Secundarunterrichts (German)"
+    ],
+    "final_school_exam_required": false,
+    "final_school_exam_requirement_details": "Subject to automatic recognition per Benelux-Baltic Agreement.",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "Percentage / 0-100",
+      "passing_min_grade_estimate": 50,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Typically percentages, where 50% is required to pass.",
+      "confidence": "medium"
+    }
+  },
+  "CM": {
+    "country": "CAMEROON",
+    "secondary_qualification": "General Certificate of Education",
+    "required_documents": [
+      "Original General Certificate of Education (ordinary and advanced levels)",
+      "Official statement of General Certificate of Education posted directly by Cameroon GCE Board",
+      "Documents attesting to any periods of post secondary education"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "General Certificate of Education (ordinary and advanced levels) official statements",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A-E scale (A-level)",
+      "passing_min_grade_estimate": "E",
+      "maximum_grade_estimate": "A",
+      "all_letters": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "letter_to_10_scale": {
+        "E": 6,
+        "D": 7,
+        "C": 8,
+        "B": 9,
+        "A": 10
+      },
+      "numeric_range_explanation": "Follows British GCE system. A-E are passing grades for Advanced levels.",
+      "confidence": "high"
+    }
+  },
+  "CN": {
+    "country": "CHINA",
+    "secondary_qualification": "Senior Secondary School Graduation Certificate",
+    "required_documents": [
+      "Senior Secondary School Graduation Certificate",
+      "Academic transcript for the last three years",
+      "Verification report for the Huikao/Xueye Shuiping Ceshi results",
+      "Verification report for Chinese National University Entrance Examination (GaoKao)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Huikao (Proficiency Test) and GaoKao (National University Entrance Exam)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-100 scale",
+      "passing_min_grade_estimate": 60,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "School subjects are typically out of 100 with 60 passing. GaoKao is usually out of 750.",
+      "confidence": "high"
+    }
+  },
+  "CD": {
+    "country": "CONGO (DEMOCRATIC REPUBLIC OF)",
+    "secondary_qualification": "Diplome d’Etat",
+    "required_documents": [
+      "Diplome d’Etat (original)",
+      "Bulletin for the last 3 years of schooling (original)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Diplome d'Etat involves passing state exams.",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "Percentage (0-100%)",
+      "passing_min_grade_estimate": 50,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Grades typically awarded out of 100%, with 50% needed to earn the Diplome d'Etat.",
+      "confidence": "high"
+    }
+  },
+  "CY": {
+    "country": "CYPRUS",
+    "secondary_qualification": "Aπολυτήριο (Apolytirio)",
+    "required_documents": [
+      "Aπολυτήριο (Apolytirio)",
+      "Document certifying the results of centrally organized exams (Pancyprian)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Centrally organized exams (Pancyprian)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-20 scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Cyprus uses a 1-20 grading scale, where 10 is the minimum pass.",
+      "confidence": "high"
+    }
+  },
+  "DK": {
+    "country": "DENMARK",
+    "secondary_qualification": "Bevis for Studentereksamen",
+    "required_documents": [
+      "Bevis for Studentereksamen or Bevis for Højere Teknisk Eksamen or Bevis for Højere forberedelseseksamen or Bevis for Højere handelseksamen"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Studentereksamen (school leaving exam)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "7-point grading scale",
+      "passing_min_grade_estimate": "02",
+      "maximum_grade_estimate": 12,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "7-point scale (-03, 00, 02, 4, 7, 10, 12). Passing grade is 02.",
+      "confidence": "high"
+    }
+  },
+  "EG": {
+    "country": "EGYPT",
+    "secondary_qualification": "Thanawiyya al-A’aamaI",
+    "required_documents": [
+      "General Secondary Education Certificate (Thanawiyya al-A’aamaI)",
+      "Official General Secondary Education Certificate examination results"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "General Secondary Education Certificate examination results",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-100% or 0-410",
+      "passing_min_grade_estimate": 50,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Results generally presented as percentages, 50% passing.",
+      "confidence": "high"
+    }
+  },
+  "EE": {
+    "country": "ESTONIA",
+    "secondary_qualification": "Gümnaasiumi Lõputunnistus",
+    "required_documents": [
+      "Gümnaasiumi Lõputunnistus",
+      "Hinneteleht",
+      "Riigieksamitunnistus"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Riigieksamitunnistus (State exam certificate)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-5 scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "1-5 scale for school subjects where 3 is pass. State exams typically 0-100 points.",
+      "confidence": "high"
+    },
+    "notes": [
+      "Automatic recognition for credentials starting from 2019."
+    ]
+  },
+  "FR": {
+    "country": "FRANCE",
+    "secondary_qualification": "Diplôme du Baccalauréat",
+    "required_documents": [
+      "Diplôme du Baccalauréat",
+      "Relevé de Notes"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Baccalauréat examination results",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-20 scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "0-20 grading scale where 10 is passing.",
+      "confidence": "high"
+    }
+  },
+  "DE": {
+    "country": "GERMANY",
+    "secondary_qualification": "Zeugnis der allgemeinen Hochschulreife",
+    "required_documents": [
+      "Diploma (Urkunde, Diplom)",
+      "Transcript (Zeugnis, Diploma Supplement)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Zeugnis der allgemeinen Hochschulreife (Abitur exams)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-15 point scale (Abitur)",
+      "passing_min_grade_estimate": 5,
+      "maximum_grade_estimate": 15,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Upper secondary level uses 0-15 points where 5 is minimum passing. (equivalent to 1-6 standard reverse scale).",
+      "confidence": "high"
+    }
+  },
+  "GH": {
+    "country": "GHANA",
+    "secondary_qualification": "WAEC Senior Secondary Certificate",
+    "required_documents": [
+      "Original WAEC Senior Secondary Certificate",
+      "Result Checker Card serial number and pin code",
+      "Transcript of completed one year additional studies in a Higher education institution"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "WAEC examination results online at ghana.waecdirect.org",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A1-F9 WAEC scale",
+      "passing_min_grade_estimate": "E8",
+      "maximum_grade_estimate": "A1",
+      "all_letters": [
+        "E8",
+        "D7",
+        "C6",
+        "C5",
+        "C4",
+        "B3",
+        "B2",
+        "A1"
+      ],
+      "letter_to_10_scale": {
+        "E8": 3,
+        "D7": 4,
+        "C6": 5,
+        "C5": 6,
+        "C4": 7,
+        "B3": 8,
+        "B2": 9,
+        "A1": 10
+      },
+      "numeric_range_explanation": "WAEC uses A1 (excellent) to F9 (fail). Passes are generally A1-E8.",
+      "confidence": "high"
+    }
+  },
+  "GR": {
+    "country": "GREECE",
+    "secondary_qualification": "Apolytirio Genikou Lykeiou / Apolytirio Epangekmatikou Lykeiou",
+    "required_documents": [
+      "ΑΠΟΛΥΤΗΡΙΟ ΓΕΝΙΚΟΥ ΛΥΚΕΙΟΥ or ΑΠΟΛΥΤΗΡΙΟ ΕΠΑΓΓΕΛΜΑΤΙΚΟΥ ΛΥΚΕΙΟΥ",
+      "Certificate of access to higher education (Vevaiosi Prosvasis)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Vevaiosi Prosvasis implies Panhellenic exams for university access.",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-20 scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Greek Lykeio uses a 20-point scale where 10 is a passing grade.",
+      "confidence": "high"
+    }
+  },
+  "IN": {
+    "country": "INDIA",
+    "secondary_qualification": "Senior Secondary Examination Certificate",
+    "required_documents": [
+      "Secondary school certificate with mark sheet",
+      "Apostilled original senior secondary examination certificate with mark sheet",
+      "Diploma of Engineering/Technlogy (if applicable)",
+      "Diploma certificate (if applicable)",
+      "Consolidated marksheet (if applicable)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Senior secondary examination certificate (Board exams)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-100 percentage",
+      "passing_min_grade_estimate": 33,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Typically percentages, with 33% or 35% as passing grade.",
+      "confidence": "high"
+    },
+    "notes": [
+      "All applicants from India will be contacted by Study in Lithuania center for checking the documents."
+    ]
+  },
+  "IE": {
+    "country": "IRELAND",
+    "secondary_qualification": "Leaving Certificate",
+    "required_documents": [
+      "Leaving Certificate"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Leaving Certificate implies national exam results.",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "H1-H8 / O1-O8",
+      "passing_min_grade_estimate": "H7",
+      "maximum_grade_estimate": "H1",
+      "all_letters": [
+        "H7",
+        "H6",
+        "H5",
+        "H4",
+        "H3",
+        "H2",
+        "H1"
+      ],
+      "letter_to_10_scale": {
+        "H7": 4,
+        "H6": 5,
+        "H5": 6,
+        "H4": 7,
+        "H3": 8,
+        "H2": 9,
+        "H1": 10
+      },
+      "numeric_range_explanation": "Higher/Ordinary level system. H1-H7 and O1-O6 are passing. H1 is maximum.",
+      "confidence": "high"
+    }
+  },
+  "IL": {
+    "country": "ISRAEL",
+    "secondary_qualification": "Teudat bagrut",
+    "required_documents": [
+      "Teudat bagrut (תעודת בגרות)",
+      "Teudat bagrut (subjects, their levels and grades)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Bagrut exam results",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-100 scale",
+      "passing_min_grade_estimate": 55,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Scores out of 100, minimum passing score is generally 55.",
+      "confidence": "high"
+    }
+  },
+  "IT": {
+    "country": "ITALY",
+    "secondary_qualification": "Diploma",
+    "required_documents": [
+      "Diploma",
+      "Certifica (Esame di Stato)",
+      "Document issued by the school providing detailed grades of final examination and marks at the end of the last year of schooling"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Esame di Stato final examination grades",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-100 scale (Esame di Stato)",
+      "passing_min_grade_estimate": 60,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Final diploma (Maturità) graded 60 to 100. School years graded 1-10.",
+      "confidence": "high"
+    }
+  },
+  "KZ": {
+    "country": "KAZAKHSTAN",
+    "secondary_qualification": "Аттeстат жалпы орта білім туралы",
+    "required_documents": [
+      "Аттeстат жалпы орта білім туралы",
+      "Жалпы орта білім туралыаттeстатка косымша",
+      "Unified National Testing Results Certificate (Сертификат)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Unified National Testing Results Certificate",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "2-5 scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Uses the traditional post-Soviet 5-point grading system where 3 is pass and 5 is max.",
+      "confidence": "high"
+    }
+  },
+  "KG": {
+    "country": "KYRGYZSTAN",
+    "secondary_qualification": "Жалпы орто билим женунде аттестат (аттестат о среднем общем образовании)",
+    "required_documents": [
+      "Жалпы орто билим женунде аттестат (or other equivalent document)",
+      "Appendix to the Жалпы орто билим женунде аттестат",
+      "Document on Results of National Test"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Document on Results of National Test organized by Center for Educational Assessment and Teaching Methods",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "2-5 scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Uses traditional post-Soviet 5-point system.",
+      "confidence": "high"
+    }
+  },
+  "LV": {
+    "country": "LATVIA",
+    "secondary_qualification": "Atestāts par vispārējo vidējo izglītību",
+    "required_documents": [
+      "Atestāts par vispārējo vidējo izglītību",
+      "Sekmju izraksts",
+      "Vispārējās vidējās izglītības sertifikāts"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Vispārējās vidējās izglītības sertifikāts (central exams)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-10 scale",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Latvia uses a 1-10 scale, where 4 is the minimum pass.",
+      "confidence": "high"
+    },
+    "notes": [
+      "Automatic recognition for credentials issued starting from 2019."
+    ]
+  },
+  "LU": {
+    "country": "LUXEMBOURG",
+    "secondary_qualification": null,
+    "required_documents": [],
+    "final_school_exam_required": false,
+    "final_school_exam_requirement_details": "Subject to automatic recognition",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-60 scale",
+      "passing_min_grade_estimate": 30,
+      "maximum_grade_estimate": 60,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Luxembourg typically uses a 1-60 grading system with 30 as pass.",
+      "confidence": "medium"
+    },
+    "notes": [
+      "Higher education qualifications are subject to automatic recognition per Benelux-Baltic Agreement."
+    ]
+  },
+  "MD": {
+    "country": "MOLDOVA",
+    "secondary_qualification": "Diplomǎ de Bacalaureat",
+    "required_documents": [
+      "Diplomǎ de Bacalaureat"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Diplomǎ de Bacalaureat exam results verified via official register",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-10 scale",
+      "passing_min_grade_estimate": 5,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Moldova uses a 1-10 grading scale. 5 is the minimum pass.",
+      "confidence": "high"
+    }
+  },
+  "MA": {
+    "country": "MOROCCO",
+    "secondary_qualification": "Attestation du Baccalauréat",
+    "required_documents": [
+      "Attestation du Baccalauréat certificate",
+      "Releve de Notes du Baccalaureat"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Baccalauréat exams",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-20 scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "0-20 system modeled on France, 10 is pass.",
+      "confidence": "high"
+    }
+  },
+  "NP": {
+    "country": "NEPAL",
+    "secondary_qualification": "Higher Secondary Examination Certificate",
+    "required_documents": [
+      "Original Higher Secondary Examination Certificate",
+      "Original higher secondary education academic transcript",
+      "School Leaving Certificate",
+      "School leaving education academic transcript",
+      "OMPT Mathematics entrance exam certificate"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Higher Secondary Examination and OMPT Mathematics exam",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A+ to E (GPA)",
+      "passing_min_grade_estimate": "D+",
+      "maximum_grade_estimate": "A+",
+      "all_letters": [
+        "D+",
+        "C",
+        "C+",
+        "B",
+        "B+",
+        "A",
+        "A+"
+      ],
+      "letter_to_10_scale": {
+        "D+": 4,
+        "C": 5,
+        "C+": 6,
+        "B": 7,
+        "B+": 8,
+        "A": 9,
+        "A+": 10
+      },
+      "numeric_range_explanation": "GPA scale converting to letter grades. D+ or D is usually pass.",
+      "confidence": "high"
+    }
+  },
+  "NL": {
+    "country": "NETHERLANDS",
+    "secondary_qualification": "Hoger algemeen voortgezet onderwijs (HAVO) or Voorbereidend wetenschappelijk onderwijs (VWO)",
+    "required_documents": [
+      "Diploma",
+      "Transcript/Diploma Supplement"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "HAVO/VWO diploma involves passing the national Centraal Examen.",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-10 scale",
+      "passing_min_grade_estimate": 5.5,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Netherlands uses a 1-10 scale where 5.5 (rounded to 6) is passing.",
+      "confidence": "high"
+    }
+  },
+  "NG": {
+    "country": "NIGERIA",
+    "secondary_qualification": "WAEC or NECO Senior School Certificate",
+    "required_documents": [
+      "WAEC or NECO Senior School Certificate",
+      "Scratch Card serial number and pin code",
+      "Transcript of completed one year additional studies in Higher education institution"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Check examination results online at WAEC or NECO portals.",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A1-F9 WAEC scale",
+      "passing_min_grade_estimate": "E8",
+      "maximum_grade_estimate": "A1",
+      "all_letters": [
+        "E8",
+        "D7",
+        "C6",
+        "C5",
+        "C4",
+        "B3",
+        "B2",
+        "A1"
+      ],
+      "letter_to_10_scale": {
+        "E8": 3,
+        "D7": 4,
+        "C6": 5,
+        "C5": 6,
+        "C4": 7,
+        "B3": 8,
+        "B2": 9,
+        "A1": 10
+      },
+      "numeric_range_explanation": "WAEC/NECO grades range from A1 to F9.",
+      "confidence": "high"
+    }
+  },
+  "NO": {
+    "country": "NORWAY",
+    "secondary_qualification": "Vitnemål for videregående opplæring (generell studiekompetanse)",
+    "required_documents": [
+      "Diploma",
+      "Transcript/Supplement"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Vitnemål includes final exam results.",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-6 scale",
+      "passing_min_grade_estimate": 2,
+      "maximum_grade_estimate": 6,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Norway secondary uses 1-6 scale where 2 is passing, 1 is fail.",
+      "confidence": "high"
+    }
+  },
+  "PK": {
+    "country": "PAKISTAN",
+    "secondary_qualification": "Higher Secondary Certificate",
+    "required_documents": [
+      "Higher Secondary School Examination Certificate",
+      "Higher Secondary School Examination Certificate Statement of Marks",
+      "Secondary School Examination Certificate",
+      "Secondary School Examination Certificate Statement of Marks",
+      "OMPT Mathematics entrance exam certificate"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Board examination and OMPT mathematics entrance exam",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-100 percentage",
+      "passing_min_grade_estimate": 33,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Graded usually in percentages, min pass is 33% or 40% depending on exact board.",
+      "confidence": "high"
+    }
+  },
+  "PL": {
+    "country": "POLAND",
+    "secondary_qualification": "Świadectwo Dojrzałości",
+    "required_documents": [
+      "Świadectwo Dojrzałości",
+      "Świadectwo ukończenia"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Świadectwo Dojrzałości (Matura exam)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-6 scale (school) / 0-100% (Matura)",
+      "passing_min_grade_estimate": 30,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "School ends with 1-6 (2 pass). Matura exams are % where 30% is pass.",
+      "confidence": "high"
+    }
+  },
+  "PT": {
+    "country": "PORTUGAL",
+    "secondary_qualification": "Diploma/Certificado/Certidão do Ensino Secundário",
+    "required_documents": [
+      "Diploma/Certificado/Certidão do Ensino Secundário",
+      "Document certifying the passing of the national exams (FICHA ENES)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "National exams (FICHA ENES)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-20 scale",
+      "passing_min_grade_estimate": 10,
+      "maximum_grade_estimate": 20,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Scale of 0-20, pass is 10.",
+      "confidence": "high"
+    }
+  },
+  "PH": {
+    "country": "PHILIPPINES",
+    "secondary_qualification": "Secondary Education Diploma",
+    "required_documents": [
+      "Diploma supplemented with an Authentication Certificate",
+      "Secondary Student’s Permanent Record (Form 137-A) supplemented with an Authentication Certificate"
+    ],
+    "final_school_exam_required": false,
+    "final_school_exam_requirement_details": null,
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-100 percentage",
+      "passing_min_grade_estimate": 75,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Percentages are common, passing is 75.",
+      "confidence": "medium"
+    }
+  },
+  "RU": {
+    "country": "RUSSIA",
+    "secondary_qualification": "Attestat (Аттестат о среднем (полном) образовании)",
+    "required_documents": [
+      "Attestat (Аттестат о среднем (полном) образовании)",
+      "Appendix to attestat",
+      "Certificate Unified State Examination Results Certificate"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Unified State Examination Results Certificate",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "2-5 scale (school) / 0-100 (USE)",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "School attestat uses 2-5, USE (EGE) is 0-100.",
+      "confidence": "high"
+    }
+  },
+  "GE": {
+    "country": "GEORGIA (SAKARTVELO)",
+    "secondary_qualification": "Secondary School diploma (Sashualo Skolis Atestati) or General Education Diploma",
+    "required_documents": [
+      "Secondary School diploma (Sashualo Skolis Atestati) or General Education Diploma (Sruli zogadi Ganatlebis Atestati)",
+      "Results of the Unified National Examinations (Ertiani Erovnuli Gamocdebi)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Unified National Examinations",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-10 scale",
+      "passing_min_grade_estimate": 5,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "School is 1-10 scale.",
+      "confidence": "medium"
+    }
+  },
+  "KR": {
+    "country": "SOUTH KOREA",
+    "secondary_qualification": "Certificate of Graduation",
+    "required_documents": [
+      "Certificate of Graduation",
+      "Academic Transcript",
+      "Results of the Korean College Scholastic Ability Test",
+      "Higher Education Certificate of Graduation and Transcript (if applicable)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Korean College Scholastic Ability Test (CSAT)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-9 stanine (reverse)",
+      "passing_min_grade_estimate": 9,
+      "maximum_grade_estimate": 1,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "High schools commonly use a relative grading scale 1-9 where 1 is best. Passing/failing is less explicit.",
+      "confidence": "medium"
+    }
+  },
+  "ES": {
+    "country": "SPAIN",
+    "secondary_qualification": "Título de Bachiller",
+    "required_documents": [
+      "Título de Bachiller",
+      "An examination certificate (Prueba de Acceso a la Universidad) (if taken)",
+      "Academic Certificate (Historial Académico de Bachillerato/Certificación official)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Prueba de Acceso a la Universidad (if taken)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-10 scale",
+      "passing_min_grade_estimate": 5,
+      "maximum_grade_estimate": 10,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Spain uses a 0-10 scale where 5 is pass.",
+      "confidence": "high"
+    }
+  },
+  "LK": {
+    "country": "SRI LANKA",
+    "secondary_qualification": "General Certificate of Education (Advanced Level)",
+    "required_documents": [
+      "Official statements of General Certificates of Education (Ordinary Level and Advanced Level)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "General Certificates of Education (Advanced Level) exams",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A-F scale (A-level)",
+      "passing_min_grade_estimate": "S",
+      "maximum_grade_estimate": "A",
+      "all_letters": [
+        "S",
+        "C",
+        "B",
+        "A"
+      ],
+      "letter_to_10_scale": {
+        "S": 5,
+        "C": 7,
+        "B": 8,
+        "A": 10
+      },
+      "numeric_range_explanation": "Grades are A (Distinction), B, C, S (Simple Pass), and F (Fail).",
+      "confidence": "high"
+    }
+  },
+  "SE": {
+    "country": "SWEDEN",
+    "secondary_qualification": "Examensbevis",
+    "required_documents": [
+      "Examensbevis"
+    ],
+    "final_school_exam_required": false,
+    "final_school_exam_requirement_details": null,
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A-F scale",
+      "passing_min_grade_estimate": "E",
+      "maximum_grade_estimate": "A",
+      "all_letters": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "letter_to_10_scale": {
+        "E": 6,
+        "D": 7,
+        "C": 8,
+        "B": 9,
+        "A": 10
+      },
+      "numeric_range_explanation": "Swedish schools use A-F scale where E is minimum passing.",
+      "confidence": "high"
+    }
+  },
+  "TJ": {
+    "country": "TAJIKISTAN",
+    "secondary_qualification": "Шаходатнома дар бораи тахсилоти миёнаи умумй (свидетельство об общем среднем образовании)",
+    "required_documents": [
+      "Шаходатнома дар бораи тахсилоти миёнаиумумй",
+      "Appendix to the Official results of the centralized examination for admission to higher education institutions"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Official results of the centralized examination for admission to higher education institutions",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "2-5 scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Traditional post-Soviet 5-point grading scale.",
+      "confidence": "high"
+    }
+  },
+  "TR": {
+    "country": "TURKEY",
+    "secondary_qualification": "Lise Diplomasi",
+    "required_documents": [
+      "Lise Diplomasi",
+      "Transcript providing information on the last 4 years of study",
+      "Results of taken YKS, YGS and/or LYS examinations"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Centralised admission examinations YKS, YGS and/or LYS",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "0-100 scale",
+      "passing_min_grade_estimate": 50,
+      "maximum_grade_estimate": 100,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Lise Diplomasi score is out of 100 with 50 as passing.",
+      "confidence": "high"
+    }
+  },
+  "TM": {
+    "country": "TURKMENISTAN",
+    "secondary_qualification": "Şahadatnama orta blim hakynda (Аттестат о полном среднем общем образовании)",
+    "required_documents": [
+      "Şahadatnama orta blim hakynda"
+    ],
+    "final_school_exam_required": false,
+    "final_school_exam_requirement_details": null,
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "2-5 scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Traditional post-Soviet 5-point system.",
+      "confidence": "high"
+    }
+  },
+  "UA": {
+    "country": "UKRAINE",
+    "secondary_qualification": "Atestat (Aтeстат прo повну загальну серeдню освiту)",
+    "required_documents": [
+      "Aтeстат прo повну загальну серeдню освiту",
+      "Додаток до атестата",
+      "ЗНО (Independent External Examination) results"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "ЗНО (Independent External Examination)",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "1-12 scale (school) / 100-200 (ZNO)",
+      "passing_min_grade_estimate": 4,
+      "maximum_grade_estimate": 12,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "School uses 1-12 points where 4 is pass. ZNO ranges from 100 to 200.",
+      "confidence": "high"
+    }
+  },
+  "GB": {
+    "country": "UNITED KINGDOM",
+    "secondary_qualification": "General Certificate of Education – Advanced Level (A level)",
+    "required_documents": [
+      "General Certificate of Education (or another qualification comparable to at least 2 A levels)"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "GCE A level examinations",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A*-E scale",
+      "passing_min_grade_estimate": "E",
+      "maximum_grade_estimate": "A*",
+      "all_letters": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        "A*"
+      ],
+      "letter_to_10_scale": {
+        "E": 5,
+        "D": 6,
+        "C": 7,
+        "B": 8,
+        "A": 9,
+        "A*": 10
+      },
+      "numeric_range_explanation": "Passing grades at A-level are A* to E.",
+      "confidence": "high"
+    }
+  },
+  "US": {
+    "country": "UNITED STATES",
+    "secondary_qualification": "High School Diploma",
+    "required_documents": [
+      "Diploma",
+      "Official academic transcript",
+      "ACT, SAT, or AP examination results",
+      "Documents attesting to completion of any postsecondary education"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "ACT, SAT, or AP examination results (English, Mathematics and Science exams are required)",
+    "grading_system_estimate": {
+      "grading_type": "letter",
+      "scale_name": "A-F / 4.0 GPA scale",
+      "passing_min_grade_estimate": "D",
+      "maximum_grade_estimate": "A",
+      "all_letters": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "letter_to_10_scale": {
+        "D": 6,
+        "C": 7,
+        "B": 8,
+        "A": 10
+      },
+      "numeric_range_explanation": "Uses A, B, C, D (passing) and F (fail). GPA up to 4.0.",
+      "confidence": "high"
+    }
+  },
+  "UZ": {
+    "country": "UZBEKISTAN",
+    "secondary_qualification": "Ўрта маълумот тўгрисида Шаходатнома (Аттестат о полном среднем общем образовании)",
+    "required_documents": [
+      "Ўрта маълумот тўгрисида Шаходатнома",
+      "ўзлаштириш бўйича якуний бахолартабели to the Ўрта маълумот тўгрисида Шаходатнома",
+      "Official results of the centralized examination for admission to higher education institutions"
+    ],
+    "final_school_exam_required": true,
+    "final_school_exam_requirement_details": "Centralized examination organised by National Testing Centre",
+    "grading_system_estimate": {
+      "grading_type": "numeric",
+      "scale_name": "2-5 scale",
+      "passing_min_grade_estimate": 3,
+      "maximum_grade_estimate": 5,
+      "all_letters": [],
+      "letter_to_10_scale": {},
+      "numeric_range_explanation": "Traditional post-Soviet 5-point system.",
+      "confidence": "high"
+    }
+  }
 }

@@ -1,0 +1,81 @@
+{
+  "name": "bachelor_admission_rules",
+  "description": "General Bachelor admission requirements, including academic qualification thresholds, entrance score calculation, document legalization, English proficiency, entrance examinations, and study gap rules.",
+  "academic_qualification": {
+    "minimum_required_percentage": 60,
+    "subjects": [
+      "Mathematics",
+      "Physics or another science/social science subject",
+      "English language"
+    ],
+    "rule": "Applicant must have at least 60% of the maximum possible result in each required subject."
+  },
+  "entrance_score": {
+    "name": "KB",
+    "formula": "KB = K_M*(P_M/P_M_max) + K_F*(P_F/P_F_max) + K_A*(P_A/P_A_max)",
+    "inputs": {
+      "P_M": "Mathematics grade",
+      "P_M_max": "Maximum possible Mathematics grade",
+      "K_M": "Mathematics weighting factor",
+      "P_F": "Physics or approved alternative science/social science subject grade",
+      "P_F_max": "Maximum possible Physics or alternative subject grade",
+      "K_F": "Physics or alternative subject weighting factor",
+      "P_A": "English language grade",
+      "P_A_max": "Maximum possible English language grade",
+      "K_A": "English language weighting factor"
+    },
+    "output": "KB"
+  },
+  "document_legalization": {
+    "translation_required_if_not_english": true,
+    "accepted_translation": "Official legalized English translation",
+    "not_accepted": "Unofficial or self-translated documents",
+    "legalization_rules": [
+      {
+        "condition": "Document issued in a country not part of the 1961 Hague Convention",
+        "requirement": "Legalization by a consular office"
+      },
+      {
+        "condition": "Document issued in a country part of the 1961 Hague Convention",
+        "requirement": "Apostille certification"
+      }
+    ]
+  },
+  "english_language_proficiency": {
+    "required_for": "International applicants whose native language is not English",
+    "exception": "Applicants who completed previous studies fully in English",
+    "accepted_tests": {
+      "IELTS Academic": "5.5 overall, no section below 5.5",
+      "FCE B2 First": "Minimum overall score 160",
+      "CAE C1 Advanced": "Grade C or above",
+      "CPE C2 Proficiency": "Grade C or above",
+      "TOEFL": "Paper 510, iBT 70, CBT 180, code 6529",
+      "LanguageCert International ESOL": "Level B2 Communicator, L/R/W",
+      "TOEIC": "Listening & Reading 785; Speaking & Writing 310",
+      "PTE Academic": "Minimum 48 in all four skills",
+      "Duolingo English Test": "Minimum score 95"
+    }
+  },
+  "entrance_examinations": {
+    "ompt_mathematics": {
+      "required_for_countries": [
+        "Pakistan",
+        "Bangladesh",
+        "Nepal"
+      ],
+      "applies_to": "Applicants from secondary or vocational schools",
+      "replaces": "School Mathematics grade in entrance score",
+      "minimum_score": {
+        "university_bachelor": "60%",
+        "professional_bachelor": "50%"
+      }
+    },
+    "architecture": {
+      "additional_test_required": true,
+      "requirement": "Applicants to the Architecture programme must pass an entrance test."
+    }
+  },
+  "study_gap": {
+    "maximum_years_since_last_completed_education": 3
+  }
+}
