@@ -3,10 +3,6 @@ Read the provided undergraduate academic transcript OCR text and extract Master-
 
 OUTPUT ONLY VALID JSON:
 {
-  "document_type": "undergraduate_transcript_of_grades",
-  "institution": "",
-  "issuing_country": "",
-  "country_code": "",
   "study_programme": "",
   "field_of_study": "",
   "study_period": "",
@@ -14,25 +10,21 @@ OUTPUT ONLY VALID JSON:
   "grading_scale": "",
   "cgpa": "",
   "percentage": "",
-  "minimum_master_requirement_percentage": "60",
-  "meets_minimum_percentage_requirement": "",
   "subjects_or_modules_summary": "",
-  "translation_status": "",
-  "executive_summary": ""
+  "translation_status": ""
 }
 
 RULES:
 - Extract CGPA, GPA, final average, percentage, class/division, or equivalent final result if available.
 - If both CGPA and percentage are present, extract both.
 - If only CGPA is available and no conversion scale is shown, do not convert; leave "percentage" omitted.
-- "meets_minimum_percentage_requirement" must be "yes", "no", or "unclear".
-- Mark "yes" only if the document explicitly shows percentage >= 60 or equivalent clear result.
 - Extract grading scale only if visible.
 - "translation_status" should state whether the document appears to be original, translated, legalized translation, or unclear.
 - PII rule: Do not output any personal information or person-linked identifiers anywhere in the JSON; omit such values entirely rather than masking/redacting them, and keep summaries generic using terms like "the applicant" or "the student".
 
-FILE NAME:
-{file_name}
+--- START OF DOCUMENT ---
+{doc_text}
+
 
 DOCUMENT OCR TEXT:
 {doc_text}
