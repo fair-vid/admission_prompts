@@ -1,0 +1,31 @@
+TASK:
+Read the provided undergraduate degree certificate OCR text and extract Master-admission-relevant information only.
+
+OUTPUT ONLY VALID JSON:
+{
+  "document_type": "undergraduate_degree",
+  "qualification_awarded": "",
+  "degree_level": "",
+  "field_of_study": "",
+  "graduation_date": "",
+  "institution": "",
+  "issuing_country": "",
+  "country_code": "",
+  "is_bachelor_or_equivalent": "",
+  "relevance_for_master_admission": "",
+  "executive_summary": ""
+}
+
+RULES:
+- Extract whether the qualification appears to be a Bachelor's degree or equivalent.
+- Extract the field of study if available.
+- Extract the graduation/completion/award date normalized as "yyyy-mm-dd".
+- "relevance_for_master_admission" should state whether the document supports the required academic qualification for Master admission.
+- Do not invent equivalence if not stated; use "unclear" if uncertain.
+- PII rule: Do not output any personal information or person-linked identifiers anywhere in the JSON; omit such values entirely rather than masking/redacting them, and keep summaries generic using terms like "the applicant" or "the student".
+
+FILE NAME:
+{file_name}
+
+DOCUMENT OCR TEXT:
+{doc_text}
