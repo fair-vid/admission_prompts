@@ -3,7 +3,6 @@ Read the provided CV OCR text and extract only admission-relevant academic and p
 
 OUTPUT ONLY VALID JSON:
 {
-  "document_type": "CV",
   "highest_education_level": "",
   "education_summary": "",
   "professional_experience_summary": "",
@@ -11,8 +10,7 @@ OUTPUT ONLY VALID JSON:
   "latest_completed_degree_year": "",
   "latest_activity_year": "",
   "possible_study_gap_years": "",
-  "study_gap_risk": "",
-  "executive_summary": ""
+  "study_gap_risk": ""
 }
 
 RULES:
