@@ -10,20 +10,17 @@ OUTPUT ONLY VALID JSON:
   "relationship_to_applicant": "",
   "academic_strengths": [],
   "professional_strengths": [],
-  "supports_master_admission": "",
-  "document_date": "",
-  "executive_summary": ""
+  "supports_admission": "",
+  "document_date": ""
 }
 
 RULES:
 - Do not output recommender name, applicant name, signatures, emails, phone numbers, addresses, or IDs.
-- "supports_master_admission" must be "yes", "no", or "unclear".
+- "supports_admission" must be "yes", "no", or "unclear".
 - Summarize strengths generically.
 - Normalize document date to "yyyy-mm-dd" if available.
 - PII rule: Do not output any personal information or person-linked identifiers anywhere in the JSON; omit such values entirely rather than masking/redacting them, and keep summaries generic using terms like "the applicant" or "the student".
 
-FILE NAME:
-{file_name}
 
 DOCUMENT OCR TEXT:
 {doc_text}
