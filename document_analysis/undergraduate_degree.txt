@@ -20,8 +20,6 @@ RULES:
 - Do not invent equivalence if not stated; use "unclear" if uncertain.
 - PII rule: Do not output any personal information or person-linked identifiers anywhere in the JSON; omit such values entirely rather than masking/redacting them, and keep summaries generic using terms like "the applicant" or "the student".
 
-FILE NAME:
-{file_name}
 
 DOCUMENT OCR TEXT:
 {doc_text}
