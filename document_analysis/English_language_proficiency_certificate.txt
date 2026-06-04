@@ -3,40 +3,20 @@ Read the provided English language proficiency certificate OCR text and extract 
 
 OUTPUT ONLY VALID JSON:
 {
-  "document_type": "English_language_proficiency_certificate",
   "test_name": "",
   "test_date": "",
   "overall_score": "",
   "section_scores": {},
   "cefr_level": "",
-  "meets_master_english_requirement": "",
-  "requirement_basis": "",
-  "issuing_organization": "",
-  "issuing_country": "",
-  "country_code": "",
-  "executive_summary": ""
+  "meets_english_requirement": ""
 }
 
-ACCEPTED MASTER REQUIREMENTS:
-- IELTS Academic: 5.5 overall, no section below 5.5
-- FCE B2 First: minimum overall score 160
-- CAE C1 Advanced: Grade C or above
-- CPE C2 Proficiency: Grade C or above
-- TOEFL: Paper 510, iBT 70, CBT 180
-- LanguageCert International ESOL: Level B2 Communicator, L/R/W
-- TOEIC: Listening & Reading 785; Speaking & Writing 310
-- PTE Academic: minimum 48 in all four skills
-- Duolingo English Test: minimum score 95
+
 
 RULES:
-- "meets_master_english_requirement" must be "yes", "no", or "unclear".
-- Do not infer scores that are not visible.
-- If the test type is not in the accepted list, set "meets_master_english_requirement" to "unclear".
-- Normalize test date to "yyyy-mm-dd" if available.
+
 - PII rule: Do not output any personal information or person-linked identifiers anywhere in the JSON; omit such values entirely rather than masking/redacting them, and keep summaries generic using terms like "the applicant" or "the student".
 
-FILE NAME:
-{file_name}
 
 DOCUMENT OCR TEXT:
 {doc_text}
