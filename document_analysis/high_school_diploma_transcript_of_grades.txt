@@ -1,37 +1,24 @@
-PROMPT NAME:
-high_school_diploma_transcript_of_grades
+You are an expert academic admissions assistant. Your task is to analyze the following high school transcript and extract final grades for specific core subjects.
 
-TASK:
-Read the provided high school transcript OCR text and extract final/latest grades for relevant subjects.
+--- START OF DOCUMENT ---
+{doc_text}
+--- END OF DOCUMENT ---
 
-OUTPUT ONLY VALID JSON:
+EXTRACTION RULES:
+1. MOST RECENT PERIOD: If a subject has grades across multiple years, semesters, terms, quarters, or other periods, extract ONLY the grade from the latest / most recent period available.
+   Ignore grades from older periods.
+2. SYNONYMS: You may map obvious synonyms to the target keys (e.g., map "Calculus", "Geometry", or "Algebra" to "Mathematics"; map "Computer Science" or "IT" to "Informatics").
+3. GPA: Extract the cumulative GPA if available.
+
+OUTPUT CONSTRAINTS:
+Return ONLY a valid JSON object.
+
+EXPECTED JSON SCHEMA (Only include keys if the subject is found):
+
 {
-  "document_type": "high_school_diploma_transcript_of_grades",
   "Mathematics": "",
   "English": "",
   "Physics": "",
   "Informatics": "",
-  "GPA": "",
-  "grading_scale": "",
-  "institution": "",
-  "issuing_country": "",
-  "country_code": "",
-  "executive_summary": ""
+  "GPA" : ""
 }
-
-EXTRACTION RULES:
-- If a subject has grades across multiple years, semesters, terms, quarters, or other periods, extract only the grade from the latest / most recent period available.
-- Ignore grades from older periods.
-- Map obvious synonyms to the target keys:
-  - "Calculus", "Geometry", "Algebra" -> "Mathematics"
-  - "Computer Science", "Information Technology", "IT" -> "Informatics"
-- Extract cumulative GPA if available.
-- Extract grading scale if available.
-- Include only keys where values are found, except "document_type".
-- PII rule: Do not output any personal information or person-linked identifiers anywhere in the JSON; omit such values entirely rather than masking/redacting them, and keep summaries generic using terms like "the applicant" or "the student".
-
-FILE NAME:
-{file_name}
-
-DOCUMENT OCR TEXT:
-{doc_text}
