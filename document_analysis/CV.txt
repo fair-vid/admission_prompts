@@ -1,0 +1,30 @@
+TASK:
+Read the provided CV OCR text and extract only admission-relevant academic and professional timeline information.
+
+OUTPUT ONLY VALID JSON:
+{
+  "document_type": "CV",
+  "highest_education_level": "",
+  "education_summary": "",
+  "professional_experience_summary": "",
+  "relevant_work_experience_present": "",
+  "latest_completed_degree_year": "",
+  "latest_activity_year": "",
+  "possible_study_gap_years": "",
+  "study_gap_risk": "",
+  "executive_summary": ""
+}
+
+RULES:
+- Do not extract employer names if they identify the person indirectly; summarize generically.
+- "relevant_work_experience_present" must be "yes", "no", or "unclear".
+- "study_gap_risk" must be "low", "possible", or "unclear".
+- If latest completed degree year and latest activity year are available, estimate possible gap in years.
+- Do not output addresses, emails, phone numbers, personal links, names, or IDs.
+- PII rule: Do not output any personal information or person-linked identifiers anywhere in the JSON; omit such values entirely rather than masking/redacting them, and keep summaries generic using terms like "the applicant" or "the student".
+
+FILE NAME:
+{file_name}
+
+DOCUMENT OCR TEXT:
+{doc_text}
