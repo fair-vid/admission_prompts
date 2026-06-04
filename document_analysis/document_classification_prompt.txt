@@ -20,7 +20,10 @@ For "document_type", choose exactly ONE value from:
   "high_school_diploma_transcript_of_grades",
   "high_school_exam_transcript_of_grades",
   "undergraduate_degree",
+  "undergraduate_transcript_of_grades",
   "graduate_degree",
+  "graduate_transcript_of_grades",
+  "motivation_letter",
   "phd_diploma",
   "passport",
   "apostille",
@@ -43,6 +46,8 @@ Rules:
 - "executive_summary" should briefly summarize the document in one concise sentence.
 - If a value cannot be determined from the OCR text, omit that field from the JSON object.
 - "high_school_exam_transcript_of_grades" : use this category for documents that show results of standardized or board-level high school examinations, rather than a diploma certificate itself. These typically list subjects and grades/marks issued by an examination board.
+
+- PII rule: Never output personal information or unique person-linked identifiers anywhere in the JSON.
 
 FILE NAME: {file_name}
 
