@@ -21,6 +21,4 @@ Impact: [what changes in the result or behaviour]
 
 Do not report style, variable naming, code structure, or environment setup as differences.
 
----
 
-Swap `{COLAB_NOTEBOOK}` and `{SERVER_SCRIPT}` with the actual code when you use it.
