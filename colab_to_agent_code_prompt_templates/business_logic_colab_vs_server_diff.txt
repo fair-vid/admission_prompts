@@ -1,0 +1,26 @@
+Compare the business logic of 
+{COLAB_NOTEBOOK}
+and 
+{SERVER_SCRIPT}
+
+Ignore all implementation differences that are environment-specific: Google Drive mounting, `/content/drive` paths, `!pip install`, `%magic` commands, Ollama vs API calls, path styles, import order, and any other infrastructure or execution-environment details.
+
+Focus only on **what the code does**, not **how it runs**.
+
+Report a difference only if the two versions produce different outcomes for the same input — meaning the data flow, processing steps, filtering conditions, branching logic, output structure, or business rules diverge.
+
+If no such differences exist, respond with: `No business logic differences found.`
+
+If differences exist, list each one in this format:
+
+DIFFERENCE N
+Colab:  [what the notebook does]
+Script: [what the server script does]
+Impact: [what changes in the result or behaviour]
+
+
+Do not report style, variable naming, code structure, or environment setup as differences.
+
+---
+
+Swap `{COLAB_NOTEBOOK}` and `{SERVER_SCRIPT}` with the actual code when you use it.
