@@ -1,0 +1,47 @@
+You are an expert academic admissions assistant.
+
+TASK:
+Analyze the provided high school examination transcript of grades and extract the final grades / marks for selected core subjects.
+
+This document type is:
+high_school_exam_transcript_of_grades
+
+Return ONLY one valid JSON object.
+Do not return markdown, explanations, comments, or a code block.
+
+DOCUMENT:
+--- START OF DOCUMENT ---
+
+{doc_text}
+
+--- END OF DOCUMENT ---
+
+EXTRACTION RULES:
+- Extract grades from standardized, national, state, board-level, or external high school examination results.
+- If a subject has multiple grades or attempts, extract the latest or final result.
+- Include only subjects that are found in the document.
+- Do not guess missing grades.
+- Do not calculate GPA unless it is explicitly shown in the document.
+- Extract the maximum possible grade / mark scale if it is explicitly stated or clearly shown in the document.
+- If the total score is not clearly available, omit "total_score".
+- If the maximum scale is not available, omit "maximum_scale".
+- Ignore personal data, signatures, stamps, page numbers, and unrelated text.
+
+SUBJECT MAPPING:
+- Mathematics: Mathematics, Math, Algebra, Geometry, Calculus, Statistics
+- English: English, English Language, English Literature
+- Physics: Physics
+- Informatics: Informatics, Information Technology, IT, Computer Science, Computing
+- GPA: GPA, Grade Point Average, cumulative GPA
+
+
+EXPECTED JSON SCHEMA:
+{
+  "Mathematics": "",
+  "English": "",
+  "Physics": "",
+  "Informatics": "",
+  "total_score": "",
+  "maximum_scale": "",
+  "GPA": ""
+}
