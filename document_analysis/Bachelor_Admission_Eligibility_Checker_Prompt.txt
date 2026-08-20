@@ -39,19 +39,15 @@ Bachelor academic qualification rules:
 
 Entrance score logic:
 - If all required inputs are available, calculate or verify the entrance score KB using:
-  KB = K_M*(P_M/P_M_max) + K_F*(P_F/P_F_max) + K_A*(P_A/P_A_max)
+  KB = (P_M/P_M_max) + (P_F/P_F_max) + (P_A/P_A_max)
 - Where:
   - P_M = Mathematics grade
   - P_M_max = Maximum possible Mathematics grade
-  - K_M = Mathematics weighting factor
   - P_F = Physics or approved alternative science/social science subject grade
   - P_F_max = Maximum possible Physics or alternative subject grade
-  - K_F = Physics or alternative subject weighting factor
   - P_A = English language grade
   - P_A_max = Maximum possible English language grade
-  - K_A = English language weighting factor
-- If weighting factors or subject scores are missing, mark entrance score as INSUFFICIENT_INFORMATION.
-- Do not invent weighting factors.
+- If subject scores are missing, mark entrance score as INSUFFICIENT_INFORMATION.
 
 Country-specific document logic:
 - Use the applicant’s citizenship/country of education to identify country-specific required documents.
