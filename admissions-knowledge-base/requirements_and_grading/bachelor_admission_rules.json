@@ -12,17 +12,14 @@
   },
   "entrance_score": {
     "name": "KB",
-    "formula": "KB = K_M*(P_M/P_M_max) + K_F*(P_F/P_F_max) + K_A*(P_A/P_A_max)",
+    "formula": "KB = (P_M/P_M_max) + (P_F/P_F_max) + (P_A/P_A_max)",
     "inputs": {
       "P_M": "Mathematics grade",
       "P_M_max": "Maximum possible Mathematics grade",
-      "K_M": "Mathematics weighting factor",
       "P_F": "Physics or approved alternative science/social science subject grade",
       "P_F_max": "Maximum possible Physics or alternative subject grade",
-      "K_F": "Physics or alternative subject weighting factor",
       "P_A": "English language grade",
-      "P_A_max": "Maximum possible English language grade",
-      "K_A": "English language weighting factor"
+      "P_A_max": "Maximum possible English language grade"
     },
     "output": "KB"
   },
