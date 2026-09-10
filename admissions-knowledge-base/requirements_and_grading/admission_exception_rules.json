@@ -1,0 +1,96 @@
+{
+  "admission_exceptions": [
+    {
+      "exception_id": "EXC_RECENT_GRADUATE_PRELIMINARY_RESULTS",
+      "name": "Preliminary results accepted while final certificate is pending",
+      "priority": 1,
+      "enabled": true,
+      "applies_when": {
+        "all": [
+          {
+            "condition": "The applicant has completed, or is completing, the final year of secondary education in the current admission cycle."
+          },
+          {
+            "condition": "The official final certificate, diploma, or apostilled version has not yet been issued or is not yet reasonably available."
+          },
+          {
+            "condition": "The applicant provides preliminary, provisional, online, school-issued, examination-board-issued, or digitally issued results."
+          },
+          {
+            "condition": "The provided results contain sufficient information to assess the applicant's subjects, grades, qualification status, and academic eligibility."
+          },
+          {
+            "condition": "The preliminary results show that the applicant has passed or qualified."
+          },
+          {
+            "condition": "There is no evidence of document inconsistency, failed studies, fraud, or failure to meet academic admission requirements."
+          }
+        ]
+      },
+      "decision_instruction": {
+        "academic_document_status": "ACCEPT_PROVISIONALLY",
+        "apostille_status": "DEFERRED_UNTIL_ENROLMENT",
+        "overall_decision": "ACCEPTED_CONDITIONALLY",
+        "requires_manual_review": false,
+        "instruction": "Do not assign NEEDS_REVIEW solely because the final certificate, diploma, mark sheet, legalization, or apostille is missing when the applicant is a recent school graduate and adequate preliminary or online results are available."
+      },
+      "apostille_exception": {
+        "rule": "An apostille is not required at the preliminary admission assessment stage if the final certificate has not yet been issued or is not yet reasonably available.",
+        "temporary_deferral_only": true,
+        "does_not_permanently_waive_requirement": true,
+        "submission_deadline": "The applicant must present the final official certificate and mark sheet, with an apostille or other required legalization, upon arrival at the university or by the deadline established by the university.",
+        "failure_to_submit_consequence": "The university may suspend enrolment, revoke conditional admission, or request additional verification if the required final documents are not submitted by the applicable deadline."
+      },
+      "acceptable_preliminary_evidence": [
+        "Official online examination result",
+        "Provisional result statement",
+        "Digitally issued examination-board result",
+        "School-issued final-year result",
+        "Examination-board-issued mark statement",
+        "Provisional certificate",
+        "Official digital certificate whose authenticity can be verified"
+      ],
+      "evidence_quality_requirements": [
+        "The applicant's name or another reliable personal identifier is present.",
+        "The school, examination board, or issuing authority is identifiable.",
+        "The examination year is present.",
+        "Relevant subjects and grades are present.",
+        "The result indicates passed, qualified, completed, or an equivalent successful status.",
+        "The document appears internally consistent with the rest of the application."
+      ],
+      "override_rules": [
+        {
+          "if": "The only missing item is the final certificate, final mark sheet, apostille, or legalization.",
+          "then": "Do not use NEEDS_REVIEW. Use ACCEPTED_CONDITIONALLY."
+        },
+        {
+          "if": "Academic eligibility can be determined from acceptable preliminary results.",
+          "then": "Evaluate all academic requirements using those results."
+        },
+        {
+          "if": "Country-specific rules normally require an apostilled final certificate.",
+          "then": "Record the requirement as deferred, not failed, when the final document is not yet available to a recent graduate."
+        },
+        {
+          "if": "A general country-specific manual-verification rule conflicts with this exception but no concrete discrepancy or risk is identified.",
+          "then": "Apply this exception and do not change the decision to NEEDS_REVIEW solely because of the general verification rule."
+        }
+      ],
+      "do_not_apply_when": [
+        "The applicant should reasonably already possess the final certificate.",
+        "The preliminary results do not show a successful final result.",
+        "Required subjects or grades cannot be verified.",
+        "The applicant does not meet the academic admission thresholds.",
+        "There are conflicting names, dates, grades, qualification statuses, or issuing institutions.",
+        "There is a specific authenticity concern or evidence of document alteration.",
+        "The final certificate has already been issued but the applicant has not provided it without explanation."
+      ],
+      "required_output": {
+        "overall_decision": "ACCEPTED_CONDITIONALLY",
+        "summary_template": "The applicant meets the academic admission requirements based on acceptable preliminary or online results. Because the applicant completed or is completing secondary education during the current admission cycle, the final certificate and apostille may be submitted later, upon arrival at the university or by the university's prescribed deadline.",
+        "missing_item_classification": "POST_ADMISSION_CONDITION",
+        "recommended_next_action": "Inform the applicant of the deadline for submitting the final official certificate, mark sheet, and required apostille or legalization."
+      }
+    }
+  ]
+}
