@@ -49,4 +49,3 @@ The overall score must reflect the quality of all answers across the complete in
 
 If some answers are missing, incomplete, or unrelated to their questions, reduce the overall score accordingly.
 
-Before returning the result, verify that it is valid JSON.
