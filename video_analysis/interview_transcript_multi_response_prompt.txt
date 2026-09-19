@@ -47,5 +47,5 @@ Use an integer from 0 to 100.
 
 The overall score must reflect the quality of all answers across the complete interview.
 
-If some answers are missing, incomplete, or unrelated to their questions, reduce the overall score accordingly.
+
 
